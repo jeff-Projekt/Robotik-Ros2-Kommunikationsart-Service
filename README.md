@@ -3,10 +3,13 @@ akademisches Praktikum-ROS2-Service / Ingenieurwesen / Labor
 
 
 Dieses Projekt implementiert eine Client-Server-Architektur in ROS2, mit der die Scanfrequenz eines simulierten Laserscanners dynamisch über einen benutzerdefinierten ROS2-Service geändert werden kann.
-
 Das Projekt erweitert die vorherige Implementierung auf Basis von ROS2-Topics um einen Service-Mechanismus (Request/Response).
-
 Ziel ist es, die Unterschiede zwischen kontinuierlicher Kommunikation (Topics) und ereignisgesteuerter Kommunikation (Services) praktisch zu verstehen und umzusetzen.
+
+    Systemarchitektur
+https://docs.ros.org/en/kilted/_images/Service-SingleServiceClient.gif
+https://docs.ros.org/en/foxy/_images/Service-MultipleServiceClient.gif
+https://docs.ros.org/en/rolling/_images/Nodes-TopicandService.gif
 
              Architekturüberblick
 
