@@ -1,6 +1,8 @@
-# Praktikum-Hochschule-Robotik-2025
+# Praktikum-Hochschule-Robotik
 akademisches Praktikum-ROS2-Service / Ingenieurwesen / Labor
-
+Hochschule : Technische Hochschule Georg Agricola
+Wissenschaftsbereich : Elektrotechnik (BET-Energietechnik)
+Team : 2 Studenten
 
 Dieses Projekt implementiert eine Client-Server-Architektur in ROS2, mit der die Scanfrequenz eines simulierten Laserscanners dynamisch über einen benutzerdefinierten ROS2-Service geändert werden kann.
 Das Projekt erweitert die vorherige Implementierung auf Basis von ROS2-Topics um einen Service-Mechanismus (Request/Response).
