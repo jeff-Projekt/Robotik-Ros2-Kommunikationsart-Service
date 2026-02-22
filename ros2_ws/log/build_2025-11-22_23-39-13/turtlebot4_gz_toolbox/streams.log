@@ -1,0 +1,24 @@
+[0.073s] Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[1.818s] [ 60%] Built target turtlebot4_gz_toolbox_lib
+[2.392s] [100%] Built target turtlebot4_gz_hmi_node
+[2.488s] Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[2.515s] Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox
+[2.610s] -- Install configuration: ""
+[2.620s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/turtlebot4_gz_toolbox/turtlebot4_gz_hmi_node
+[2.630s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_gz_toolbox
+[2.631s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_gz_toolbox
+[2.631s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.sh
+[2.632s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.dsv
+[2.632s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.sh
+[2.633s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.dsv
+[2.633s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.bash
+[2.633s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.sh
+[2.633s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.zsh
+[2.634s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.dsv
+[2.634s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.dsv
+[2.658s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/packages/turtlebot4_gz_toolbox
+[2.658s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.659s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig.cmake
+[2.659s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig-version.cmake
+[2.659s] -- Up-to-date: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.xml
+[2.703s] Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox

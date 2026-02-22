@@ -1,0 +1,962 @@
+[0.000000] (-) TimerEvent: {}
+[0.001282] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.001643] (-) JobUnselected: {'identifier': 'my_tutorial_interfaces'}
+[0.001684] (-) JobUnselected: {'identifier': 'turtlebot4_gz_bringup'}
+[0.001719] (-) JobUnselected: {'identifier': 'turtlebot4_gz_gui_plugins'}
+[0.001751] (-) JobUnselected: {'identifier': 'turtlebot4_gz_toolbox'}
+[0.001783] (-) JobUnselected: {'identifier': 'turtlebot4_simulator'}
+[0.001814] (-) JobUnselected: {'identifier': 'v1_topic_pkg'}
+[0.001851] (v2_service_interface) JobQueued: {'identifier': 'v2_service_interface', 'dependencies': OrderedDict()}
+[0.001889] (v2_service_interface) JobStarted: {'identifier': 'v2_service_interface'}
+[0.097780] (-) TimerEvent: {}
+[0.179308] (v2_service_interface) JobProgress: {'identifier': 'v2_service_interface', 'progress': 'cmake'}
+[0.186536] (v2_service_interface) Command: {'cmd': ['/usr/bin/cmake', '/home/bachelor/ros2_ws/src/v2_service_interface', '-DCMAKE_INSTALL_PREFIX=/home/bachelor/ros2_ws/install/v2_service_interface'], 'cwd': '/home/bachelor/ros2_ws/build/v2_service_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bachelor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src/v2_service_interface', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2718', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2515,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/782dd8ca_9325_4443_a6f6_cb6cb27c0ee5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K7MJG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/v2_service_interface', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.198931] (-) TimerEvent: {}
+[0.312853] (-) TimerEvent: {}
+[0.414947] (-) TimerEvent: {}
+[0.516707] (-) TimerEvent: {}
+[0.630078] (-) TimerEvent: {}
+[0.731868] (-) TimerEvent: {}
+[0.842656] (-) TimerEvent: {}
+[0.943750] (-) TimerEvent: {}
+[1.058900] (-) TimerEvent: {}
+[1.161067] (-) TimerEvent: {}
+[1.266760] (-) TimerEvent: {}
+[1.367689] (-) TimerEvent: {}
+[1.484757] (-) TimerEvent: {}
+[1.587666] (-) TimerEvent: {}
+[1.692831] (-) TimerEvent: {}
+[1.795829] (-) TimerEvent: {}
+[1.898781] (-) TimerEvent: {}
+[2.003886] (-) TimerEvent: {}
+[2.107949] (-) TimerEvent: {}
+[2.209753] (-) TimerEvent: {}
+[2.313823] (-) TimerEvent: {}
+[2.416787] (-) TimerEvent: {}
+[2.517707] (-) TimerEvent: {}
+[2.626839] (-) TimerEvent: {}
+[2.729887] (-) TimerEvent: {}
+[2.833616] (-) TimerEvent: {}
+[2.934749] (-) TimerEvent: {}
+[2.989817] (v2_service_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[3.038751] (-) TimerEvent: {}
+[3.141357] (-) TimerEvent: {}
+[3.244071] (-) TimerEvent: {}
+[3.349868] (-) TimerEvent: {}
+[3.455939] (-) TimerEvent: {}
+[3.560123] (-) TimerEvent: {}
+[3.667996] (-) TimerEvent: {}
+[3.777041] (-) TimerEvent: {}
+[3.878679] (-) TimerEvent: {}
+[3.982877] (-) TimerEvent: {}
+[4.085856] (-) TimerEvent: {}
+[4.196858] (-) TimerEvent: {}
+[4.312026] (-) TimerEvent: {}
+[4.408417] (v2_service_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[4.414072] (-) TimerEvent: {}
+[4.515272] (-) TimerEvent: {}
+[4.626340] (v2_service_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.626612] (-) TimerEvent: {}
+[4.731238] (-) TimerEvent: {}
+[4.832017] (-) TimerEvent: {}
+[4.939057] (-) TimerEvent: {}
+[5.042022] (-) TimerEvent: {}
+[5.158760] (-) TimerEvent: {}
+[5.264836] (-) TimerEvent: {}
+[5.372994] (-) TimerEvent: {}
+[5.478960] (-) TimerEvent: {}
+[5.588817] (-) TimerEvent: {}
+[5.695841] (-) TimerEvent: {}
+[5.703913] (v2_service_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.752414] (v2_service_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.753495] (v2_service_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.760160] (v2_service_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.804860] (-) TimerEvent: {}
+[5.838389] (v2_service_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.911276] (-) TimerEvent: {}
+[6.016887] (-) TimerEvent: {}
+[6.121602] (-) TimerEvent: {}
+[6.237830] (-) TimerEvent: {}
+[6.348862] (-) TimerEvent: {}
+[6.451205] (-) TimerEvent: {}
+[6.504824] (v2_service_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[6.539687] (v2_service_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[6.541441] (v2_service_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[6.547244] (v2_service_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[6.560416] (-) TimerEvent: {}
+[6.664833] (-) TimerEvent: {}
+[6.776816] (-) TimerEvent: {}
+[6.878562] (-) TimerEvent: {}
+[6.991243] (-) TimerEvent: {}
+[7.036189] (v2_service_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[7.095740] (-) TimerEvent: {}
+[7.200436] (-) TimerEvent: {}
+[7.305190] (-) TimerEvent: {}
+[7.413989] (-) TimerEvent: {}
+[7.525031] (-) TimerEvent: {}
+[7.661968] (-) TimerEvent: {}
+[7.764860] (-) TimerEvent: {}
+[7.867706] (-) TimerEvent: {}
+[7.979847] (-) TimerEvent: {}
+[8.084907] (-) TimerEvent: {}
+[8.153714] (v2_service_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[8.185865] (-) TimerEvent: {}
+[8.302867] (-) TimerEvent: {}
+[8.407108] (-) TimerEvent: {}
+[8.511918] (-) TimerEvent: {}
+[8.615728] (-) TimerEvent: {}
+[8.717769] (-) TimerEvent: {}
+[8.826815] (-) TimerEvent: {}
+[8.929166] (-) TimerEvent: {}
+[9.032662] (-) TimerEvent: {}
+[9.134003] (-) TimerEvent: {}
+[9.201453] (v2_service_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[9.243026] (-) TimerEvent: {}
+[9.343724] (-) TimerEvent: {}
+[9.457752] (-) TimerEvent: {}
+[9.564738] (-) TimerEvent: {}
+[9.665736] (-) TimerEvent: {}
+[9.777976] (-) TimerEvent: {}
+[9.892864] (-) TimerEvent: {}
+[9.997741] (-) TimerEvent: {}
+[10.090678] (v2_service_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[10.112704] (-) TimerEvent: {}
+[10.210921] (v2_service_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[10.226791] (-) TimerEvent: {}
+[10.331010] (-) TimerEvent: {}
+[10.433773] (-) TimerEvent: {}
+[10.534759] (-) TimerEvent: {}
+[10.636183] (-) TimerEvent: {}
+[10.738042] (-) TimerEvent: {}
+[10.841952] (-) TimerEvent: {}
+[10.942731] (-) TimerEvent: {}
+[11.013089] (v2_service_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[11.044120] (-) TimerEvent: {}
+[11.153845] (-) TimerEvent: {}
+[11.256885] (-) TimerEvent: {}
+[11.365812] (-) TimerEvent: {}
+[11.466907] (-) TimerEvent: {}
+[11.569959] (-) TimerEvent: {}
+[11.629985] (v2_service_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[11.677877] (-) TimerEvent: {}
+[11.782765] (-) TimerEvent: {}
+[11.883275] (-) TimerEvent: {}
+[11.999778] (-) TimerEvent: {}
+[12.117099] (-) TimerEvent: {}
+[12.231917] (-) TimerEvent: {}
+[12.335752] (-) TimerEvent: {}
+[12.437748] (-) TimerEvent: {}
+[12.539073] (-) TimerEvent: {}
+[12.660058] (-) TimerEvent: {}
+[12.776736] (-) TimerEvent: {}
+[12.887784] (-) TimerEvent: {}
+[13.014745] (-) TimerEvent: {}
+[13.147750] (-) TimerEvent: {}
+[13.257745] (-) TimerEvent: {}
+[13.361711] (-) TimerEvent: {}
+[13.519716] (-) TimerEvent: {}
+[13.643703] (-) TimerEvent: {}
+[13.753955] (-) TimerEvent: {}
+[13.869012] (-) TimerEvent: {}
+[13.983882] (-) TimerEvent: {}
+[14.086802] (-) TimerEvent: {}
+[14.192762] (-) TimerEvent: {}
+[14.296853] (-) TimerEvent: {}
+[14.398827] (-) TimerEvent: {}
+[14.516875] (-) TimerEvent: {}
+[14.617795] (-) TimerEvent: {}
+[14.723030] (-) TimerEvent: {}
+[14.826738] (-) TimerEvent: {}
+[14.931980] (-) TimerEvent: {}
+[15.034843] (-) TimerEvent: {}
+[15.140046] (-) TimerEvent: {}
+[15.241835] (-) TimerEvent: {}
+[15.359830] (-) TimerEvent: {}
+[15.460875] (-) TimerEvent: {}
+[15.575761] (-) TimerEvent: {}
+[15.676812] (-) TimerEvent: {}
+[15.797746] (-) TimerEvent: {}
+[15.898844] (-) TimerEvent: {}
+[16.015703] (-) TimerEvent: {}
+[16.129987] (-) TimerEvent: {}
+[16.233742] (-) TimerEvent: {}
+[16.337704] (-) TimerEvent: {}
+[16.441295] (-) TimerEvent: {}
+[16.543916] (-) TimerEvent: {}
+[16.562025] (v2_service_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[16.644390] (-) TimerEvent: {}
+[16.759816] (-) TimerEvent: {}
+[16.860770] (-) TimerEvent: {}
+[16.975373] (-) TimerEvent: {}
+[17.089789] (-) TimerEvent: {}
+[17.222920] (-) TimerEvent: {}
+[17.333451] (-) TimerEvent: {}
+[17.444764] (-) TimerEvent: {}
+[17.545787] (-) TimerEvent: {}
+[17.662774] (-) TimerEvent: {}
+[17.769882] (-) TimerEvent: {}
+[17.881060] (-) TimerEvent: {}
+[17.992924] (-) TimerEvent: {}
+[18.095897] (-) TimerEvent: {}
+[18.199720] (-) TimerEvent: {}
+[18.302796] (-) TimerEvent: {}
+[18.409848] (-) TimerEvent: {}
+[18.510383] (-) TimerEvent: {}
+[18.626853] (-) TimerEvent: {}
+[18.729894] (-) TimerEvent: {}
+[18.835786] (-) TimerEvent: {}
+[18.939878] (-) TimerEvent: {}
+[19.042870] (-) TimerEvent: {}
+[19.146055] (-) TimerEvent: {}
+[19.250028] (-) TimerEvent: {}
+[19.319912] (v2_service_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[19.356261] (-) TimerEvent: {}
+[19.457826] (-) TimerEvent: {}
+[19.572869] (-) TimerEvent: {}
+[19.677887] (-) TimerEvent: {}
+[19.778673] (-) TimerEvent: {}
+[19.890941] (-) TimerEvent: {}
+[19.995991] (-) TimerEvent: {}
+[20.100971] (-) TimerEvent: {}
+[20.202989] (-) TimerEvent: {}
+[20.304775] (-) TimerEvent: {}
+[20.409954] (-) TimerEvent: {}
+[20.511785] (-) TimerEvent: {}
+[20.616777] (-) TimerEvent: {}
+[20.721023] (-) TimerEvent: {}
+[20.828939] (-) TimerEvent: {}
+[20.929833] (-) TimerEvent: {}
+[21.045780] (-) TimerEvent: {}
+[21.147837] (-) TimerEvent: {}
+[21.249835] (-) TimerEvent: {}
+[21.357955] (-) TimerEvent: {}
+[21.468796] (-) TimerEvent: {}
+[21.573824] (-) TimerEvent: {}
+[21.674784] (-) TimerEvent: {}
+[21.793773] (-) TimerEvent: {}
+[21.894360] (-) TimerEvent: {}
+[22.005614] (-) TimerEvent: {}
+[22.113749] (-) TimerEvent: {}
+[22.147935] (v2_service_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.184755] (v2_service_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[22.214857] (-) TimerEvent: {}
+[22.318284] (-) TimerEvent: {}
+[22.421981] (-) TimerEvent: {}
+[22.553913] (-) TimerEvent: {}
+[22.657760] (-) TimerEvent: {}
+[22.769700] (-) TimerEvent: {}
+[22.845607] (v2_service_interface) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[22.873844] (-) TimerEvent: {}
+[22.974418] (-) TimerEvent: {}
+[23.088232] (-) TimerEvent: {}
+[23.203378] (-) TimerEvent: {}
+[23.316736] (-) TimerEvent: {}
+[23.431878] (-) TimerEvent: {}
+[23.535746] (-) TimerEvent: {}
+[23.642124] (-) TimerEvent: {}
+[23.744219] (-) TimerEvent: {}
+[23.845803] (-) TimerEvent: {}
+[23.950792] (-) TimerEvent: {}
+[24.051895] (-) TimerEvent: {}
+[24.155822] (-) TimerEvent: {}
+[24.262818] (-) TimerEvent: {}
+[24.367854] (-) TimerEvent: {}
+[24.469804] (-) TimerEvent: {}
+[24.573744] (-) TimerEvent: {}
+[24.679722] (-) TimerEvent: {}
+[24.795793] (-) TimerEvent: {}
+[24.896827] (-) TimerEvent: {}
+[25.009806] (-) TimerEvent: {}
+[25.111154] (-) TimerEvent: {}
+[25.215806] (-) TimerEvent: {}
+[25.318790] (-) TimerEvent: {}
+[25.441902] (-) TimerEvent: {}
+[25.549816] (-) TimerEvent: {}
+[25.653974] (-) TimerEvent: {}
+[25.755998] (-) TimerEvent: {}
+[25.859933] (-) TimerEvent: {}
+[25.965804] (-) TimerEvent: {}
+[26.068817] (-) TimerEvent: {}
+[26.170832] (-) TimerEvent: {}
+[26.275751] (-) TimerEvent: {}
+[26.378687] (-) TimerEvent: {}
+[26.483708] (-) TimerEvent: {}
+[26.587766] (-) TimerEvent: {}
+[26.689120] (-) TimerEvent: {}
+[26.794715] (-) TimerEvent: {}
+[26.897987] (-) TimerEvent: {}
+[27.002685] (-) TimerEvent: {}
+[27.103917] (-) TimerEvent: {}
+[27.209812] (-) TimerEvent: {}
+[27.312834] (-) TimerEvent: {}
+[27.417843] (-) TimerEvent: {}
+[27.521961] (-) TimerEvent: {}
+[27.622706] (-) TimerEvent: {}
+[27.737890] (-) TimerEvent: {}
+[27.843826] (-) TimerEvent: {}
+[27.947779] (-) TimerEvent: {}
+[28.049738] (-) TimerEvent: {}
+[28.162665] (-) TimerEvent: {}
+[28.264661] (-) TimerEvent: {}
+[28.369795] (-) TimerEvent: {}
+[28.475740] (-) TimerEvent: {}
+[28.577876] (-) TimerEvent: {}
+[28.679810] (-) TimerEvent: {}
+[28.785686] (-) TimerEvent: {}
+[28.891737] (-) TimerEvent: {}
+[28.997040] (-) TimerEvent: {}
+[29.082263] (v2_service_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[29.102851] (-) TimerEvent: {}
+[29.203892] (-) TimerEvent: {}
+[29.306956] (-) TimerEvent: {}
+[29.319823] (v2_service_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[29.341769] (v2_service_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[29.407469] (-) TimerEvent: {}
+[29.429613] (v2_service_interface) StdoutLine: {'line': b'-- Configuring done (28.7s)\n'}
+[29.511900] (-) TimerEvent: {}
+[29.616846] (-) TimerEvent: {}
+[29.721736] (-) TimerEvent: {}
+[29.770021] (v2_service_interface) StdoutLine: {'line': b'-- Generating done (0.3s)\n'}
+[29.824775] (-) TimerEvent: {}
+[29.866718] (v2_service_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/bachelor/ros2_ws/build/v2_service_interface\n'}
+[29.912051] (v2_service_interface) CommandEnded: {'returncode': 0}
+[29.912959] (v2_service_interface) JobProgress: {'identifier': 'v2_service_interface', 'progress': 'build'}
+[29.913911] (v2_service_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bachelor/ros2_ws/build/v2_service_interface', '--', '-j1', '-l1'], 'cwd': '/home/bachelor/ros2_ws/build/v2_service_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bachelor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src/v2_service_interface', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2718', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2515,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/782dd8ca_9325_4443_a6f6_cb6cb27c0ee5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K7MJG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/v2_service_interface', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[29.927206] (-) TimerEvent: {}
+[30.042734] (-) TimerEvent: {}
+[30.147173] (-) TimerEvent: {}
+[30.248011] (-) TimerEvent: {}
+[30.347435] (v2_service_interface) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[30.351683] (-) TimerEvent: {}
+[30.455926] (-) TimerEvent: {}
+[30.560865] (-) TimerEvent: {}
+[30.664896] (-) TimerEvent: {}
+[30.768825] (-) TimerEvent: {}
+[30.875769] (-) TimerEvent: {}
+[30.978842] (-) TimerEvent: {}
+[31.081847] (-) TimerEvent: {}
+[31.183788] (-) TimerEvent: {}
+[31.284769] (-) TimerEvent: {}
+[31.398405] (-) TimerEvent: {}
+[31.449679] (v2_service_interface) StdoutLine: {'line': b'[  2%] Built target v2_service_interface__rosidl_generator_type_description\n'}
+[31.499883] (-) TimerEvent: {}
+[31.528754] (v2_service_interface) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[31.601877] (-) TimerEvent: {}
+[31.704856] (-) TimerEvent: {}
+[31.816949] (-) TimerEvent: {}
+[31.932706] (-) TimerEvent: {}
+[32.037779] (-) TimerEvent: {}
+[32.143847] (-) TimerEvent: {}
+[32.247775] (-) TimerEvent: {}
+[32.350641] (-) TimerEvent: {}
+[32.460179] (-) TimerEvent: {}
+[32.561793] (-) TimerEvent: {}
+[32.665832] (-) TimerEvent: {}
+[32.768764] (-) TimerEvent: {}
+[32.874688] (-) TimerEvent: {}
+[32.976266] (-) TimerEvent: {}
+[33.076861] (-) TimerEvent: {}
+[33.114958] (v2_service_interface) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface__rosidl_generator_c.dir/rosidl_generator_c/v2_service_interface/srv/detail/set_scan_frequency__description.c.o\x1b[0m\n'}
+[33.177910] (-) TimerEvent: {}
+[33.285451] (-) TimerEvent: {}
+[33.386007] (-) TimerEvent: {}
+[33.489265] (-) TimerEvent: {}
+[33.594717] (-) TimerEvent: {}
+[33.695811] (-) TimerEvent: {}
+[33.803691] (-) TimerEvent: {}
+[33.908843] (-) TimerEvent: {}
+[33.999312] (v2_service_interface) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface__rosidl_generator_c.dir/rosidl_generator_c/v2_service_interface/srv/detail/set_scan_frequency__functions.c.o\x1b[0m\n'}
+[34.010221] (-) TimerEvent: {}
+[34.111045] (-) TimerEvent: {}
+[34.217726] (-) TimerEvent: {}
+[34.333746] (-) TimerEvent: {}
+[34.435843] (-) TimerEvent: {}
+[34.533102] (v2_service_interface) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface__rosidl_generator_c.dir/rosidl_generator_c/v2_service_interface/srv/detail/set_scan_frequency__type_support.c.o\x1b[0m\n'}
+[34.536100] (-) TimerEvent: {}
+[34.645984] (-) TimerEvent: {}
+[34.752266] (-) TimerEvent: {}
+[34.783177] (v2_service_interface) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libv2_service_interface__rosidl_generator_c.so\x1b[0m\n'}
+[34.852842] (-) TimerEvent: {}
+[34.970785] (-) TimerEvent: {}
+[35.058075] (v2_service_interface) StdoutLine: {'line': b'[ 17%] Built target v2_service_interface__rosidl_generator_c\n'}
+[35.071750] (-) TimerEvent: {}
+[35.130649] (v2_service_interface) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[35.180823] (-) TimerEvent: {}
+[35.283808] (-) TimerEvent: {}
+[35.386827] (-) TimerEvent: {}
+[35.492733] (-) TimerEvent: {}
+[35.594794] (-) TimerEvent: {}
+[35.699679] (-) TimerEvent: {}
+[35.802789] (-) TimerEvent: {}
+[35.907850] (-) TimerEvent: {}
+[36.011783] (-) TimerEvent: {}
+[36.115776] (-) TimerEvent: {}
+[36.217751] (-) TimerEvent: {}
+[36.321855] (-) TimerEvent: {}
+[36.428131] (-) TimerEvent: {}
+[36.529993] (-) TimerEvent: {}
+[36.635834] (-) TimerEvent: {}
+[36.744281] (-) TimerEvent: {}
+[36.744728] (v2_service_interface) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/v2_service_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/v2_service_interface/srv/detail/set_scan_frequency__type_support_c.cpp.o\x1b[0m\n'}
+[36.845170] (-) TimerEvent: {}
+[36.950919] (-) TimerEvent: {}
+[37.054910] (-) TimerEvent: {}
+[37.187738] (-) TimerEvent: {}
+[37.291760] (-) TimerEvent: {}
+[37.395777] (-) TimerEvent: {}
+[37.497902] (-) TimerEvent: {}
+[37.599883] (-) TimerEvent: {}
+[37.716844] (-) TimerEvent: {}
+[37.831753] (-) TimerEvent: {}
+[37.944025] (-) TimerEvent: {}
+[38.045334] (-) TimerEvent: {}
+[38.154855] (-) TimerEvent: {}
+[38.258712] (-) TimerEvent: {}
+[38.361665] (-) TimerEvent: {}
+[38.463811] (-) TimerEvent: {}
+[38.568821] (-) TimerEvent: {}
+[38.671943] (-) TimerEvent: {}
+[38.777877] (-) TimerEvent: {}
+[38.880747] (-) TimerEvent: {}
+[38.983818] (-) TimerEvent: {}
+[39.088000] (-) TimerEvent: {}
+[39.191126] (-) TimerEvent: {}
+[39.294773] (-) TimerEvent: {}
+[39.396719] (-) TimerEvent: {}
+[39.498880] (-) TimerEvent: {}
+[39.603822] (-) TimerEvent: {}
+[39.708851] (-) TimerEvent: {}
+[39.813772] (-) TimerEvent: {}
+[39.916661] (-) TimerEvent: {}
+[40.018852] (-) TimerEvent: {}
+[40.125735] (-) TimerEvent: {}
+[40.227837] (-) TimerEvent: {}
+[40.330879] (-) TimerEvent: {}
+[40.433803] (-) TimerEvent: {}
+[40.542722] (-) TimerEvent: {}
+[40.643686] (-) TimerEvent: {}
+[40.756871] (-) TimerEvent: {}
+[41.010992] (-) TimerEvent: {}
+[41.123458] (-) TimerEvent: {}
+[41.237085] (-) TimerEvent: {}
+[41.342792] (-) TimerEvent: {}
+[41.445766] (-) TimerEvent: {}
+[41.548798] (-) TimerEvent: {}
+[41.652697] (-) TimerEvent: {}
+[41.755877] (-) TimerEvent: {}
+[41.885374] (-) TimerEvent: {}
+[41.996847] (-) TimerEvent: {}
+[42.098801] (-) TimerEvent: {}
+[42.205083] (-) TimerEvent: {}
+[42.306646] (-) TimerEvent: {}
+[42.410924] (-) TimerEvent: {}
+[42.512787] (-) TimerEvent: {}
+[42.616757] (-) TimerEvent: {}
+[42.720987] (-) TimerEvent: {}
+[42.824098] (-) TimerEvent: {}
+[42.928960] (-) TimerEvent: {}
+[43.030970] (-) TimerEvent: {}
+[43.132736] (-) TimerEvent: {}
+[43.243859] (-) TimerEvent: {}
+[43.308719] (v2_service_interface) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking CXX shared library libv2_service_interface__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[43.344111] (-) TimerEvent: {}
+[43.457866] (-) TimerEvent: {}
+[43.563904] (-) TimerEvent: {}
+[43.664769] (-) TimerEvent: {}
+[43.777199] (v2_service_interface) StdoutLine: {'line': b'[ 26%] Built target v2_service_interface__rosidl_typesupport_fastrtps_c\n'}
+[43.777479] (-) TimerEvent: {}
+[43.849135] (v2_service_interface) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[43.878941] (-) TimerEvent: {}
+[43.983714] (-) TimerEvent: {}
+[44.099819] (-) TimerEvent: {}
+[44.213830] (-) TimerEvent: {}
+[44.316747] (-) TimerEvent: {}
+[44.423719] (-) TimerEvent: {}
+[44.525697] (-) TimerEvent: {}
+[44.628866] (-) TimerEvent: {}
+[44.730007] (-) TimerEvent: {}
+[44.834682] (-) TimerEvent: {}
+[44.938842] (-) TimerEvent: {}
+[45.041763] (-) TimerEvent: {}
+[45.143739] (-) TimerEvent: {}
+[45.215123] (v2_service_interface) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/v2_service_interface/srv/detail/set_scan_frequency__type_support.c.o\x1b[0m\n'}
+[45.251771] (-) TimerEvent: {}
+[45.361776] (-) TimerEvent: {}
+[45.467995] (-) TimerEvent: {}
+[45.488991] (v2_service_interface) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking C shared library libv2_service_interface__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[45.570963] (-) TimerEvent: {}
+[45.672855] (v2_service_interface) StdoutLine: {'line': b'[ 35%] Built target v2_service_interface__rosidl_typesupport_introspection_c\n'}
+[45.673158] (-) TimerEvent: {}
+[45.743477] (v2_service_interface) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[45.783836] (-) TimerEvent: {}
+[45.888139] (-) TimerEvent: {}
+[46.003951] (-) TimerEvent: {}
+[46.110866] (-) TimerEvent: {}
+[46.215934] (-) TimerEvent: {}
+[46.321419] (-) TimerEvent: {}
+[46.427340] (-) TimerEvent: {}
+[46.537970] (-) TimerEvent: {}
+[46.641801] (-) TimerEvent: {}
+[46.746765] (-) TimerEvent: {}
+[46.847196] (-) TimerEvent: {}
+[46.924850] (v2_service_interface) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/v2_service_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/v2_service_interface/srv/set_scan_frequency__type_support.cpp.o\x1b[0m\n'}
+[46.947894] (-) TimerEvent: {}
+[47.065217] (-) TimerEvent: {}
+[47.167710] (-) TimerEvent: {}
+[47.237143] (v2_service_interface) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libv2_service_interface__rosidl_typesupport_c.so\x1b[0m\n'}
+[47.268756] (-) TimerEvent: {}
+[47.376728] (-) TimerEvent: {}
+[47.468074] (v2_service_interface) StdoutLine: {'line': b'[ 44%] Built target v2_service_interface__rosidl_typesupport_c\n'}
+[47.477064] (-) TimerEvent: {}
+[47.586788] (-) TimerEvent: {}
+[47.622306] (v2_service_interface) StdoutLine: {'line': b'[ 47%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[47.689063] (-) TimerEvent: {}
+[47.801017] (-) TimerEvent: {}
+[47.904876] (-) TimerEvent: {}
+[48.009827] (-) TimerEvent: {}
+[48.111794] (-) TimerEvent: {}
+[48.218894] (-) TimerEvent: {}
+[48.322695] (-) TimerEvent: {}
+[48.424825] (-) TimerEvent: {}
+[48.529898] (-) TimerEvent: {}
+[48.631671] (-) TimerEvent: {}
+[48.750274] (-) TimerEvent: {}
+[48.851840] (-) TimerEvent: {}
+[48.950781] (v2_service_interface) StdoutLine: {'line': b'[ 47%] Built target v2_service_interface__cpp\n'}
+[48.953728] (-) TimerEvent: {}
+[49.037614] (v2_service_interface) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[49.057737] (-) TimerEvent: {}
+[49.176926] (-) TimerEvent: {}
+[49.289148] (-) TimerEvent: {}
+[49.391915] (-) TimerEvent: {}
+[49.496713] (-) TimerEvent: {}
+[49.601961] (-) TimerEvent: {}
+[49.707734] (-) TimerEvent: {}
+[49.809911] (-) TimerEvent: {}
+[49.911741] (-) TimerEvent: {}
+[50.018440] (-) TimerEvent: {}
+[50.122868] (-) TimerEvent: {}
+[50.226746] (-) TimerEvent: {}
+[50.329807] (-) TimerEvent: {}
+[50.433863] (-) TimerEvent: {}
+[50.534397] (-) TimerEvent: {}
+[50.649863] (-) TimerEvent: {}
+[50.699497] (v2_service_interface) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/v2_service_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/v2_service_interface/srv/detail/dds_fastrtps/set_scan_frequency__type_support.cpp.o\x1b[0m\n'}
+[50.755150] (-) TimerEvent: {}
+[50.860291] (-) TimerEvent: {}
+[50.963834] (-) TimerEvent: {}
+[51.068738] (-) TimerEvent: {}
+[51.172653] (-) TimerEvent: {}
+[51.278854] (-) TimerEvent: {}
+[51.380823] (-) TimerEvent: {}
+[51.484719] (-) TimerEvent: {}
+[51.586787] (-) TimerEvent: {}
+[51.692909] (-) TimerEvent: {}
+[51.795999] (-) TimerEvent: {}
+[51.899782] (-) TimerEvent: {}
+[52.003208] (-) TimerEvent: {}
+[52.107864] (-) TimerEvent: {}
+[52.212743] (-) TimerEvent: {}
+[52.313893] (-) TimerEvent: {}
+[52.431807] (-) TimerEvent: {}
+[52.535687] (-) TimerEvent: {}
+[52.642973] (-) TimerEvent: {}
+[52.744849] (-) TimerEvent: {}
+[52.847857] (-) TimerEvent: {}
+[52.954830] (-) TimerEvent: {}
+[53.057872] (-) TimerEvent: {}
+[53.162002] (-) TimerEvent: {}
+[53.265753] (-) TimerEvent: {}
+[53.372825] (-) TimerEvent: {}
+[53.474705] (-) TimerEvent: {}
+[53.577659] (-) TimerEvent: {}
+[53.681803] (-) TimerEvent: {}
+[53.784799] (-) TimerEvent: {}
+[53.885959] (-) TimerEvent: {}
+[53.992888] (-) TimerEvent: {}
+[54.056590] (v2_service_interface) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libv2_service_interface__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[54.093204] (-) TimerEvent: {}
+[54.200875] (-) TimerEvent: {}
+[54.305872] (-) TimerEvent: {}
+[54.409746] (-) TimerEvent: {}
+[54.491779] (v2_service_interface) StdoutLine: {'line': b'[ 55%] Built target v2_service_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[54.510094] (-) TimerEvent: {}
+[54.578505] (v2_service_interface) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[54.619318] (-) TimerEvent: {}
+[54.724051] (-) TimerEvent: {}
+[54.826022] (-) TimerEvent: {}
+[54.931729] (-) TimerEvent: {}
+[55.034718] (-) TimerEvent: {}
+[55.139317] (-) TimerEvent: {}
+[55.241658] (-) TimerEvent: {}
+[55.345722] (-) TimerEvent: {}
+[55.450884] (-) TimerEvent: {}
+[55.555177] (-) TimerEvent: {}
+[55.659949] (-) TimerEvent: {}
+[55.760843] (-) TimerEvent: {}
+[55.854274] (v2_service_interface) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/v2_service_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/v2_service_interface/srv/detail/set_scan_frequency__type_support.cpp.o\x1b[0m\n'}
+[55.861216] (-) TimerEvent: {}
+[55.970005] (-) TimerEvent: {}
+[56.075865] (-) TimerEvent: {}
+[56.177012] (-) TimerEvent: {}
+[56.302858] (-) TimerEvent: {}
+[56.407960] (-) TimerEvent: {}
+[56.510956] (-) TimerEvent: {}
+[56.615832] (-) TimerEvent: {}
+[56.717788] (-) TimerEvent: {}
+[56.821727] (-) TimerEvent: {}
+[56.927893] (-) TimerEvent: {}
+[57.030820] (-) TimerEvent: {}
+[57.133751] (-) TimerEvent: {}
+[57.237885] (-) TimerEvent: {}
+[57.342701] (-) TimerEvent: {}
+[57.445791] (-) TimerEvent: {}
+[57.550997] (-) TimerEvent: {}
+[57.652724] (-) TimerEvent: {}
+[57.761918] (-) TimerEvent: {}
+[57.829939] (v2_service_interface) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libv2_service_interface__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[57.862788] (-) TimerEvent: {}
+[57.975924] (-) TimerEvent: {}
+[58.078734] (-) TimerEvent: {}
+[58.179900] (-) TimerEvent: {}
+[58.263309] (v2_service_interface) StdoutLine: {'line': b'[ 64%] Built target v2_service_interface__rosidl_typesupport_introspection_cpp\n'}
+[58.280075] (-) TimerEvent: {}
+[58.334197] (v2_service_interface) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[58.380863] (-) TimerEvent: {}
+[58.484935] (-) TimerEvent: {}
+[58.587696] (-) TimerEvent: {}
+[58.693729] (-) TimerEvent: {}
+[58.797778] (-) TimerEvent: {}
+[58.900964] (-) TimerEvent: {}
+[59.006848] (-) TimerEvent: {}
+[59.108881] (-) TimerEvent: {}
+[59.212706] (-) TimerEvent: {}
+[59.316743] (-) TimerEvent: {}
+[59.421892] (-) TimerEvent: {}
+[59.464636] (v2_service_interface) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/v2_service_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/v2_service_interface/srv/set_scan_frequency__type_support.cpp.o\x1b[0m\n'}
+[59.524772] (-) TimerEvent: {}
+[59.627789] (-) TimerEvent: {}
+[59.731771] (-) TimerEvent: {}
+[59.836864] (-) TimerEvent: {}
+[59.942857] (-) TimerEvent: {}
+[60.053761] (-) TimerEvent: {}
+[60.157756] (-) TimerEvent: {}
+[60.260515] (-) TimerEvent: {}
+[60.369957] (-) TimerEvent: {}
+[60.480933] (-) TimerEvent: {}
+[60.583781] (-) TimerEvent: {}
+[60.692377] (-) TimerEvent: {}
+[60.796862] (-) TimerEvent: {}
+[60.897715] (-) TimerEvent: {}
+[61.000921] (-) TimerEvent: {}
+[61.107763] (-) TimerEvent: {}
+[61.209789] (-) TimerEvent: {}
+[61.315765] (-) TimerEvent: {}
+[61.418404] (-) TimerEvent: {}
+[61.534886] (-) TimerEvent: {}
+[61.636199] (-) TimerEvent: {}
+[61.716842] (v2_service_interface) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libv2_service_interface__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[61.744841] (-) TimerEvent: {}
+[61.846684] (-) TimerEvent: {}
+[61.950675] (-) TimerEvent: {}
+[62.054913] (-) TimerEvent: {}
+[62.157085] (-) TimerEvent: {}
+[62.186171] (v2_service_interface) StdoutLine: {'line': b'[ 73%] Built target v2_service_interface__rosidl_typesupport_cpp\n'}
+[62.257959] (-) TimerEvent: {}
+[62.340862] (v2_service_interface) StdoutLine: {'line': b'[ 73%] Built target v2_service_interface\n'}
+[62.358214] (-) TimerEvent: {}
+[62.458776] (-) TimerEvent: {}
+[62.557770] (v2_service_interface) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_copy_v2_service_interface\n'}
+[62.560783] (-) TimerEvent: {}
+[62.676288] (-) TimerEvent: {}
+[62.795736] (-) TimerEvent: {}
+[62.907315] (-) TimerEvent: {}
+[63.013747] (-) TimerEvent: {}
+[63.120700] (-) TimerEvent: {}
+[63.247412] (-) TimerEvent: {}
+[63.352882] (-) TimerEvent: {}
+[63.459006] (-) TimerEvent: {}
+[63.563757] (-) TimerEvent: {}
+[63.667133] (-) TimerEvent: {}
+[63.783977] (-) TimerEvent: {}
+[63.894987] (-) TimerEvent: {}
+[64.014465] (-) TimerEvent: {}
+[64.116958] (-) TimerEvent: {}
+[64.230714] (-) TimerEvent: {}
+[64.351382] (-) TimerEvent: {}
+[64.452075] (-) TimerEvent: {}
+[64.495160] (v2_service_interface) StdoutLine: {'line': b'running egg_info\n'}
+[64.499528] (v2_service_interface) StdoutLine: {'line': b'creating v2_service_interface.egg-info\n'}
+[64.554881] (-) TimerEvent: {}
+[64.630841] (v2_service_interface) StdoutLine: {'line': b'writing v2_service_interface.egg-info/PKG-INFO\n'}
+[64.637227] (v2_service_interface) StdoutLine: {'line': b'writing dependency_links to v2_service_interface.egg-info/dependency_links.txt\n'}
+[64.645105] (v2_service_interface) StdoutLine: {'line': b'writing top-level names to v2_service_interface.egg-info/top_level.txt\n'}
+[64.646060] (v2_service_interface) StdoutLine: {'line': b"writing manifest file 'v2_service_interface.egg-info/SOURCES.txt'\n"}
+[64.655654] (-) TimerEvent: {}
+[64.760027] (-) TimerEvent: {}
+[64.864872] (-) TimerEvent: {}
+[64.967779] (-) TimerEvent: {}
+[65.035108] (v2_service_interface) StdoutLine: {'line': b"reading manifest file 'v2_service_interface.egg-info/SOURCES.txt'\n"}
+[65.043058] (v2_service_interface) StdoutLine: {'line': b"writing manifest file 'v2_service_interface.egg-info/SOURCES.txt'\n"}
+[65.071975] (-) TimerEvent: {}
+[65.174643] (-) TimerEvent: {}
+[65.262923] (v2_service_interface) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_build_v2_service_interface_egg\n'}
+[65.275120] (-) TimerEvent: {}
+[65.385681] (-) TimerEvent: {}
+[65.424012] (v2_service_interface) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[65.489722] (-) TimerEvent: {}
+[65.592769] (-) TimerEvent: {}
+[65.694837] (-) TimerEvent: {}
+[65.799032] (-) TimerEvent: {}
+[65.904713] (-) TimerEvent: {}
+[66.007845] (-) TimerEvent: {}
+[66.113832] (-) TimerEvent: {}
+[66.215789] (-) TimerEvent: {}
+[66.318316] (-) TimerEvent: {}
+[66.427245] (-) TimerEvent: {}
+[66.528937] (-) TimerEvent: {}
+[66.632771] (-) TimerEvent: {}
+[66.736019] (-) TimerEvent: {}
+[66.840819] (-) TimerEvent: {}
+[66.945900] (-) TimerEvent: {}
+[67.049972] (-) TimerEvent: {}
+[67.163608] (-) TimerEvent: {}
+[67.353236] (-) TimerEvent: {}
+[67.476738] (-) TimerEvent: {}
+[67.581852] (-) TimerEvent: {}
+[67.686876] (-) TimerEvent: {}
+[67.791163] (-) TimerEvent: {}
+[67.896809] (-) TimerEvent: {}
+[68.145188] (-) TimerEvent: {}
+[68.251397] (-) TimerEvent: {}
+[68.360755] (-) TimerEvent: {}
+[68.466789] (-) TimerEvent: {}
+[68.571322] (-) TimerEvent: {}
+[68.685869] (-) TimerEvent: {}
+[68.735272] (v2_service_interface) StdoutLine: {'line': b'[ 76%] Built target v2_service_interface__py\n'}
+[68.788114] (-) TimerEvent: {}
+[68.894801] (-) TimerEvent: {}
+[68.963174] (v2_service_interface) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface__rosidl_generator_py.dir/rosidl_generator_py/v2_service_interface/srv/_set_scan_frequency_s.c.o\x1b[0m\n'}
+[68.995807] (-) TimerEvent: {}
+[69.100692] (-) TimerEvent: {}
+[69.201204] (-) TimerEvent: {}
+[69.311827] (-) TimerEvent: {}
+[69.412870] (-) TimerEvent: {}
+[69.514224] (-) TimerEvent: {}
+[69.615046] (-) TimerEvent: {}
+[69.716105] (-) TimerEvent: {}
+[69.822255] (-) TimerEvent: {}
+[69.940734] (-) TimerEvent: {}
+[70.043757] (-) TimerEvent: {}
+[70.158782] (-) TimerEvent: {}
+[70.260784] (-) TimerEvent: {}
+[70.363799] (-) TimerEvent: {}
+[70.416229] (v2_service_interface) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libv2_service_interface__rosidl_generator_py.so\x1b[0m\n'}
+[70.464493] (-) TimerEvent: {}
+[70.584844] (-) TimerEvent: {}
+[70.699857] (-) TimerEvent: {}
+[70.791103] (v2_service_interface) StdoutLine: {'line': b'[ 82%] Built target v2_service_interface__rosidl_generator_py\n'}
+[70.800311] (-) TimerEvent: {}
+[70.915944] (-) TimerEvent: {}
+[70.984195] (v2_service_interface) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[71.024873] (-) TimerEvent: {}
+[71.136851] (-) TimerEvent: {}
+[71.250605] (-) TimerEvent: {}
+[71.357748] (-) TimerEvent: {}
+[71.458182] (-) TimerEvent: {}
+[71.568232] (-) TimerEvent: {}
+[71.670155] (-) TimerEvent: {}
+[71.696025] (v2_service_interface) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[71.770871] (-) TimerEvent: {}
+[71.879975] (-) TimerEvent: {}
+[71.961914] (v2_service_interface) StdoutLine: {'line': b'[ 88%] Built target v2_service_interface_s__rosidl_typesupport_fastrtps_c\n'}
+[71.980837] (-) TimerEvent: {}
+[72.190258] (-) TimerEvent: {}
+[72.215983] (v2_service_interface) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[72.299433] (-) TimerEvent: {}
+[72.400802] (-) TimerEvent: {}
+[72.510720] (-) TimerEvent: {}
+[72.612789] (-) TimerEvent: {}
+[72.744926] (-) TimerEvent: {}
+[72.860828] (-) TimerEvent: {}
+[72.961644] (-) TimerEvent: {}
+[73.007754] (v2_service_interface) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[73.061916] (-) TimerEvent: {}
+[73.178172] (-) TimerEvent: {}
+[73.245581] (v2_service_interface) StdoutLine: {'line': b'[ 94%] Built target v2_service_interface_s__rosidl_typesupport_introspection_c\n'}
+[73.279882] (-) TimerEvent: {}
+[73.380732] (-) TimerEvent: {}
+[73.419739] (v2_service_interface) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/v2_service_interface_s__rosidl_typesupport_c.dir/rosidl_generator_py/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[73.482784] (-) TimerEvent: {}
+[73.585068] (-) TimerEvent: {}
+[73.692915] (-) TimerEvent: {}
+[73.802799] (-) TimerEvent: {}
+[73.906701] (-) TimerEvent: {}
+[74.009075] (-) TimerEvent: {}
+[74.063681] (v2_service_interface) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[74.109945] (-) TimerEvent: {}
+[74.213031] (-) TimerEvent: {}
+[74.315940] (-) TimerEvent: {}
+[74.346397] (v2_service_interface) StdoutLine: {'line': b'[100%] Built target v2_service_interface_s__rosidl_typesupport_c\n'}
+[74.417848] (v2_service_interface) CommandEnded: {'returncode': 0}
+[74.420152] (-) TimerEvent: {}
+[74.430275] (v2_service_interface) JobProgress: {'identifier': 'v2_service_interface', 'progress': 'install'}
+[74.526137] (-) TimerEvent: {}
+[74.680374] (-) TimerEvent: {}
+[74.776706] (v2_service_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bachelor/ros2_ws/build/v2_service_interface'], 'cwd': '/home/bachelor/ros2_ws/build/v2_service_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'bachelor', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src/v2_service_interface', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2718', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2515,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2515', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/782dd8ca_9325_4443_a6f6_cb6cb27c0ee5', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.K7MJG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.168', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/v2_service_interface', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[74.784791] (-) TimerEvent: {}
+[74.849066] (v2_service_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[74.851802] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/rosidl_interfaces/v2_service_interface\n'}
+[74.853389] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.json\n'}
+[74.854456] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.855303] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.855604] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.856077] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__functions.c\n'}
+[74.856973] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.c\n'}
+[74.864416] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__description.c\n'}
+[74.864953] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__functions.h\n'}
+[74.865946] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__struct.h\n'}
+[74.866759] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.h\n'}
+[74.867504] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/set_scan_frequency.h\n'}
+[74.876760] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg\n'}
+[74.876923] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[74.877063] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/library_path.sh\n'}
+[74.877199] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/library_path.dsv\n'}
+[74.877389] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_c.so\n'}
+[74.881843] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_c.so" to ""\n'}
+[74.882157] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.882384] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.882526] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.882664] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_fastrtps_c.h\n'}
+[74.883374] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg\n'}
+[74.883810] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[74.884629] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[74.884859] (-) TimerEvent: {}
+[74.892988] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[74.893494] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.894000] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.894374] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.895194] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.c\n'}
+[74.895449] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_introspection_c.h\n'}
+[74.896084] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg\n'}
+[74.906622] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[74.906957] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_c.so\n'}
+[74.908724] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_c.so" to ""\n'}
+[74.943119] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_c.so\n'}
+[74.943427] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_c.so" to ""\n'}
+[74.943588] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.943728] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.943921] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.944087] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.hpp\n'}
+[74.944228] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__struct.hpp\n'}
+[74.944365] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__builder.hpp\n'}
+[74.944501] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__traits.hpp\n'}
+[74.944636] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/set_scan_frequency.hpp\n'}
+[74.944773] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg\n'}
+[74.944964] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[74.945101] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.945235] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.945368] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.945502] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[74.945635] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/dds_fastrtps\n'}
+[74.945959] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg\n'}
+[74.946118] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[74.946257] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[74.946392] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[74.946529] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface\n'}
+[74.946663] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv\n'}
+[74.946861] (v2_service_interface) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail\n'}
+[74.946999] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.cpp\n'}
+[74.947170] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_introspection_cpp.hpp\n'}
+[74.947306] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[74.947440] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[74.947573] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_cpp.so\n'}
+[74.955914] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_cpp.so" to ""\n'}
+[74.956542] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/pythonpath.sh\n'}
+[74.957291] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/pythonpath.dsv\n'}
+[74.964871] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info\n'}
+[74.965823] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[74.968281] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[74.968963] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[74.969846] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[74.986860] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface\n'}
+[74.987280] (-) TimerEvent: {}
+[74.988308] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv\n'}
+[74.991237] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/_set_scan_frequency_s.c\n'}
+[75.016130] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/__init__.py\n'}
+[75.016388] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/_set_scan_frequency.py\n'}
+[75.016532] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[75.016670] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_c.c\n'}
+[75.016808] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so\n'}
+[75.016944] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/__init__.py\n'}
+[75.017079] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[75.017213] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[75.017347] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[75.088942] (-) TimerEvent: {}
+[75.200693] (-) TimerEvent: {}
+[75.302430] (-) TimerEvent: {}
+[75.446068] (-) TimerEvent: {}
+[75.552712] (-) TimerEvent: {}
+[75.614159] (v2_service_interface) StdoutLine: {'line': b"Listing '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface'...\n"}
+[75.614693] (v2_service_interface) StdoutLine: {'line': b"Compiling '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/__init__.py'...\n"}
+[75.614894] (v2_service_interface) StdoutLine: {'line': b"Listing '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv'...\n"}
+[75.615175] (v2_service_interface) StdoutLine: {'line': b"Compiling '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/__init__.py'...\n"}
+[75.615433] (v2_service_interface) StdoutLine: {'line': b"Compiling '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/_set_scan_frequency.py'...\n"}
+[75.642899] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so\n'}
+[75.644333] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[75.645322] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so\n'}
+[75.646705] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[75.647059] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so\n'}
+[75.648271] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so" to ""\n'}
+[75.656241] (-) TimerEvent: {}
+[75.685624] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_py.so\n'}
+[75.685889] (v2_service_interface) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_py.so" to ""\n'}
+[75.686037] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.idl\n'}
+[75.693992] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.srv\n'}
+[75.694273] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/package_run_dependencies/v2_service_interface\n'}
+[75.694563] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/parent_prefix_path/v2_service_interface\n'}
+[75.694710] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/ament_prefix_path.sh\n'}
+[75.696086] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/ament_prefix_path.dsv\n'}
+[75.696250] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/path.sh\n'}
+[75.696494] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/path.dsv\n'}
+[75.696632] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.bash\n'}
+[75.696843] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.sh\n'}
+[75.696980] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.zsh\n'}
+[75.699230] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.dsv\n'}
+[75.699725] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.dsv\n'}
+[75.715551] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/packages/v2_service_interface\n'}
+[75.716632] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cExport.cmake\n'}
+[75.717369] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[75.718099] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[75.725933] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[75.726312] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[75.727127] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[75.727804] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cExport.cmake\n'}
+[75.729667] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[75.730465] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cppExport.cmake\n'}
+[75.731437] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[75.735937] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[75.737560] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[75.745084] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[75.745710] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cppExport.cmake\n'}
+[75.747265] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[75.749363] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_pyExport.cmake\n'}
+[75.750290] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[75.764795] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[75.765075] (-) TimerEvent: {}
+[75.780996] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[75.783054] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[75.784091] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[75.792051] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[75.793148] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[75.793902] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[75.809061] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interfaceConfig.cmake\n'}
+[75.809462] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interfaceConfig-version.cmake\n'}
+[75.809610] (v2_service_interface) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.xml\n'}
+[75.812150] (v2_service_interface) CommandEnded: {'returncode': 0}
+[75.866343] (-) TimerEvent: {}
+[75.979205] (-) TimerEvent: {}
+[76.082237] (-) TimerEvent: {}
+[76.188781] (-) TimerEvent: {}
+[76.265647] (v2_service_interface) JobEnded: {'identifier': 'v2_service_interface', 'rc': 0}
+[76.300128] (-) EventReactorShutdown: {}

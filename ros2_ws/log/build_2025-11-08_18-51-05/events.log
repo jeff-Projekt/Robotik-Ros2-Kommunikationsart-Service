@@ -1,0 +1,122 @@
+[0.000000] (-) TimerEvent: {}
+[0.036251] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.036370] (-) JobUnselected: {'identifier': 'my_tutorial_interfaces'}
+[0.036413] (v1_topic_pkg) JobQueued: {'identifier': 'v1_topic_pkg', 'dependencies': OrderedDict()}
+[0.036452] (v1_topic_pkg) JobStarted: {'identifier': 'v1_topic_pkg'}
+[0.105872] (-) TimerEvent: {}
+[0.222515] (-) TimerEvent: {}
+[0.333538] (-) TimerEvent: {}
+[0.435700] (-) TimerEvent: {}
+[0.542756] (-) TimerEvent: {}
+[0.645611] (-) TimerEvent: {}
+[0.750658] (-) TimerEvent: {}
+[0.859151] (-) TimerEvent: {}
+[0.963560] (-) TimerEvent: {}
+[1.084711] (-) TimerEvent: {}
+[1.196555] (-) TimerEvent: {}
+[1.297654] (-) TimerEvent: {}
+[1.410499] (-) TimerEvent: {}
+[1.512604] (-) TimerEvent: {}
+[1.614493] (-) TimerEvent: {}
+[1.730572] (-) TimerEvent: {}
+[1.836588] (-) TimerEvent: {}
+[1.946543] (-) TimerEvent: {}
+[2.047697] (-) TimerEvent: {}
+[2.152673] (-) TimerEvent: {}
+[2.265663] (-) TimerEvent: {}
+[2.370775] (-) TimerEvent: {}
+[2.475522] (-) TimerEvent: {}
+[2.576523] (-) TimerEvent: {}
+[2.680763] (-) TimerEvent: {}
+[2.783458] (-) TimerEvent: {}
+[2.887522] (-) TimerEvent: {}
+[3.001582] (-) TimerEvent: {}
+[3.103614] (-) TimerEvent: {}
+[3.218841] (-) TimerEvent: {}
+[3.320698] (-) TimerEvent: {}
+[3.434569] (-) TimerEvent: {}
+[3.545191] (-) TimerEvent: {}
+[3.653238] (-) TimerEvent: {}
+[3.754580] (-) TimerEvent: {}
+[3.860615] (-) TimerEvent: {}
+[3.977662] (-) TimerEvent: {}
+[4.087680] (-) TimerEvent: {}
+[4.193798] (-) TimerEvent: {}
+[4.307247] (-) TimerEvent: {}
+[4.407840] (-) TimerEvent: {}
+[4.518509] (-) TimerEvent: {}
+[4.633115] (-) TimerEvent: {}
+[4.748564] (-) TimerEvent: {}
+[4.852532] (-) TimerEvent: {}
+[4.956723] (-) TimerEvent: {}
+[5.058518] (-) TimerEvent: {}
+[5.171548] (-) TimerEvent: {}
+[5.274627] (-) TimerEvent: {}
+[5.377493] (-) TimerEvent: {}
+[5.492816] (-) TimerEvent: {}
+[5.612745] (-) TimerEvent: {}
+[5.717683] (-) TimerEvent: {}
+[5.782546] (v1_topic_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/v1_topic_pkg', 'build', '--build-base', '/home/bachelor/ros2_ws/build/v1_topic_pkg/build', 'install', '--record', '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bachelor/ros2_ws/src/v1_topic_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bachelor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2390', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2224,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/384bee20_ca8e_48e9_8c4d_9cc19990cb89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7GOCF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/v1_topic_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.832679] (-) TimerEvent: {}
+[5.936494] (-) TimerEvent: {}
+[6.048534] (-) TimerEvent: {}
+[6.152714] (-) TimerEvent: {}
+[6.255669] (-) TimerEvent: {}
+[6.359776] (-) TimerEvent: {}
+[6.463122] (-) TimerEvent: {}
+[6.565529] (-) TimerEvent: {}
+[6.679662] (-) TimerEvent: {}
+[6.783516] (-) TimerEvent: {}
+[6.888837] (-) TimerEvent: {}
+[6.992535] (-) TimerEvent: {}
+[7.095632] (-) TimerEvent: {}
+[7.197625] (-) TimerEvent: {}
+[7.300633] (-) TimerEvent: {}
+[7.405826] (-) TimerEvent: {}
+[7.506669] (-) TimerEvent: {}
+[7.522073] (v1_topic_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[7.610141] (-) TimerEvent: {}
+[7.699026] (v1_topic_pkg) StdoutLine: {'line': b'writing ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/PKG-INFO\n'}
+[7.705241] (v1_topic_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/dependency_links.txt\n'}
+[7.712138] (v1_topic_pkg) StdoutLine: {'line': b'writing entry points to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/entry_points.txt\n'}
+[7.712483] (-) TimerEvent: {}
+[7.727595] (v1_topic_pkg) StdoutLine: {'line': b'writing requirements to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/requires.txt\n'}
+[7.732923] (v1_topic_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/top_level.txt\n'}
+[7.816904] (-) TimerEvent: {}
+[7.930505] (-) TimerEvent: {}
+[8.040758] (v1_topic_pkg) StdoutLine: {'line': b"reading manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'\n"}
+[8.051054] (-) TimerEvent: {}
+[8.066509] (v1_topic_pkg) StdoutLine: {'line': b"writing manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'\n"}
+[8.067939] (v1_topic_pkg) StdoutLine: {'line': b'running build\n'}
+[8.069073] (v1_topic_pkg) StdoutLine: {'line': b'running build_py\n'}
+[8.070576] (v1_topic_pkg) StdoutLine: {'line': b'copying v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg\n'}
+[8.098270] (v1_topic_pkg) StdoutLine: {'line': b'running install\n'}
+[8.130659] (v1_topic_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[8.160588] (-) TimerEvent: {}
+[8.267217] (v1_topic_pkg) StdoutLine: {'line': b'copying /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg\n'}
+[8.267502] (-) TimerEvent: {}
+[8.280648] (v1_topic_pkg) StdoutLine: {'line': b'byte-compiling /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_publisher.py to laser_data_publisher.cpython-312.pyc\n'}
+[8.291302] (v1_topic_pkg) StdoutLine: {'line': b'running install_data\n'}
+[8.312724] (v1_topic_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.367882] (-) TimerEvent: {}
+[8.467687] (v1_topic_pkg) StdoutLine: {'line': b"removing '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.467988] (-) TimerEvent: {}
+[8.517963] (v1_topic_pkg) StdoutLine: {'line': b'Copying ../../build/v1_topic_pkg/v1_topic_pkg.egg-info to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info\n'}
+[8.518340] (v1_topic_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[8.574383] (-) TimerEvent: {}
+[8.675594] (-) TimerEvent: {}
+[8.789468] (-) TimerEvent: {}
+[8.891665] (-) TimerEvent: {}
+[9.005622] (-) TimerEvent: {}
+[9.109583] (-) TimerEvent: {}
+[9.216084] (-) TimerEvent: {}
+[9.326672] (-) TimerEvent: {}
+[9.403154] (v1_topic_pkg) StdoutLine: {'line': b'Installing laser_data_publisher script to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/v1_topic_pkg\n'}
+[9.415786] (v1_topic_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log'\n"}
+[9.429597] (-) TimerEvent: {}
+[9.532642] (-) TimerEvent: {}
+[9.608769] (v1_topic_pkg) CommandEnded: {'returncode': 0}
+[9.633712] (-) TimerEvent: {}
+[9.721972] (v1_topic_pkg) JobEnded: {'identifier': 'v1_topic_pkg', 'rc': 0}
+[9.739454] (-) TimerEvent: {}
+[9.739909] (-) EventReactorShutdown: {}

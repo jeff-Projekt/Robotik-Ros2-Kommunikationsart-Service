@@ -1,0 +1,41 @@
+[12.046s] Invoking command in '/home/bachelor/ros2_ws/src/v1_topic_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/install.log --single-version-externally-managed install_data
+[13.545s] running egg_info
+[13.545s] creating build/v1_topic_pkg/v1_topic_pkg.egg-info
+[13.672s] writing build/v1_topic_pkg/v1_topic_pkg.egg-info/PKG-INFO
+[13.677s] writing dependency_links to build/v1_topic_pkg/v1_topic_pkg.egg-info/dependency_links.txt
+[13.677s] writing entry points to build/v1_topic_pkg/v1_topic_pkg.egg-info/entry_points.txt
+[13.677s] writing requirements to build/v1_topic_pkg/v1_topic_pkg.egg-info/requires.txt
+[13.678s] writing top-level names to build/v1_topic_pkg/v1_topic_pkg.egg-info/top_level.txt
+[13.698s] writing manifest file 'build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[14.061s] reading manifest file 'build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[14.063s] writing manifest file 'build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[14.086s] running build
+[14.086s] running build_py
+[14.086s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build
+[14.093s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib
+[14.107s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[14.107s] copying v1_topic_pkg/laser_data_subscriber.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[14.125s] copying v1_topic_pkg/__init__.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[14.125s] copying v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[14.126s] running install
+[14.194s] running install_lib
+[14.343s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[14.344s] copying /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg/laser_data_subscriber.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[14.345s] copying /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg/__init__.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[14.348s] copying /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build/lib/v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[14.353s] byte-compiling /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_subscriber.py to laser_data_subscriber.cpython-312.pyc
+[14.353s] byte-compiling /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/__init__.py to __init__.cpython-312.pyc
+[14.355s] byte-compiling /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_publisher.py to laser_data_publisher.cpython-312.pyc
+[14.361s] running install_data
+[14.362s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/share/ament_index
+[14.365s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/share/ament_index/resource_index
+[14.366s] creating /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/share/ament_index/resource_index/packages
+[14.382s] copying resource/v1_topic_pkg -> /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/share/ament_index/resource_index/packages
+[14.382s] copying package.xml -> /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/share/v1_topic_pkg
+[14.382s] running install_egg_info
+[14.610s] Copying build/v1_topic_pkg/v1_topic_pkg.egg-info to /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info
+[14.649s] running install_scripts
+[15.571s] Installing laser_data_publisher script to /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/v1_topic_pkg
+[15.575s] Installing laser_data_subscriber script to /home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/v1_topic_pkg
+[15.593s] writing list of installed files to '/home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/install.log'
+[15.842s] Invoked command in '/home/bachelor/ros2_ws/src/v1_topic_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/src/v1_topic_pkg/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/src/v1_topic_pkg/build/v1_topic_pkg/install.log --single-version-externally-managed install_data

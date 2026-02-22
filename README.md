@@ -9,10 +9,9 @@ Das Projekt erweitert die vorherige Implementierung auf Basis von ROS2-Topics um
 Ziel ist es, die Unterschiede zwischen kontinuierlicher Kommunikation (Topics) und ereignisgesteuerter Kommunikation (Services) praktisch zu verstehen und umzusetzen.
 
     Systemarchitektur
-https://docs.ros.org/en/kilted/_images/Service-SingleServiceClient.gif
-https://docs.ros.org/en/foxy/_images/Service-MultipleServiceClient.gif
-https://docs.ros.org/en/rolling/_images/Nodes-TopicandService.gif
-
+![img.png](Systemarchitektur/img.png)
+![img_1.png](Systemarchitektur/img_1.png)
+![img_2.png](Systemarchitektur/img_2.png)
              Architekturüberblick
 
 Das System besteht aus drei zentralen Komponenten:
@@ -74,7 +73,8 @@ Response	message	string	Statusmeldung des Servers
 Node: laser_data_publisher
 Dieser Node simuliert einen Laserscanner und bietet den Service:
 /set_scan_frequency
-
+![laser_data_publisher.png](Screenshots2/laser_data_publisher.png)
+![Laser_data_publisher2.png](Screenshots2/Laser_data_publisher2.png)
                   Zulässige Frequenzen
 VALID_SCAN_FREQUENCIES = [5, 10, 15]
 
@@ -96,7 +96,7 @@ Frequenzen	5 / 10 / 15 Hz
     Teil 3 – Service-Client
 Node: set_scan_frequency_client
 Der Client sendet eine asynchrone Service-Anfrage und verarbeitet die Antwort mittels Callback-Funktion.
-
+![set_scan_frequency_client.png](Screenshots2/set_scan_frequency_client.png)
                   Ablauf
 
 Warten auf Service-Verfügbarkeit
@@ -109,8 +109,10 @@ Workspace bauen
 cd ~/ros2_ws
 colcon build
 source install/setup.bash
-
-                  Service-Server starten
+im Terminal die Node Ausführen
+![test Frequenz...Überprüfung.png](Screenshots2/test%20Frequenz...%C3%9Cberpr%C3%BCfung.png)
+![test Frequenz ... Überprüfung 15 hz.png](Screenshots2/test%20Frequenz%20...%20%C3%9Cberpr%C3%BCfung%2015%20hz.png)          
+ Service-Server starten
 ros2 run v1_topic_pkg laser_data_publisher
 
                   Service-Client starten
@@ -118,7 +120,8 @@ ros2 run v1_topic_pkg set_scan_frequency_client
 
                   Manueller Test via Terminal
 ros2 service call /set_scan_frequency v2_service_interface/srv/SetScanFrequency "{scan_frequency: 5}"
-
+![Eingabe Set scanfrequenz.png](Screenshots2/Eingabe%20Set%20scanfrequenz.png)
+![Eingabe Set scanfrequenz 5.png](Screenshots2/Eingabe%20Set%20scanfrequenz%205.png)
                    Lernziele & Erworbene Kompetenzen
 
                    Fachliche Kompetenzen

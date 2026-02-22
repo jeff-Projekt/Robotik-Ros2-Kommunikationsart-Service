@@ -1,0 +1,5 @@
+  File "/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_subscriber.py", line 12
+    self-laser_data=[]
+    ^^^^^^^^^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+

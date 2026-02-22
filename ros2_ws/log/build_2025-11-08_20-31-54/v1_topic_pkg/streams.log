@@ -1,0 +1,33 @@
+[7.004s] Invoking command in '/home/bachelor/ros2_ws/src/v1_topic_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data
+[8.924s] running egg_info
+[9.040s] writing ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/PKG-INFO
+[9.047s] writing dependency_links to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/dependency_links.txt
+[9.052s] writing entry points to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/entry_points.txt
+[9.066s] writing requirements to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/requires.txt
+[9.079s] writing top-level names to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/top_level.txt
+[9.314s] reading manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[9.324s] writing manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[9.328s] running build
+[9.330s] running build_py
+[9.333s] copying v1_topic_pkg/laser_data_subscriber.py -> /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[9.341s] copying v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg
+[9.344s] running install
+[9.379s] running install_lib
+[9.524s] copying /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg/laser_data_subscriber.py -> /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[9.527s] copying /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg/laser_data_publisher.py -> /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg
+[9.556s] byte-compiling /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_subscriber.py to laser_data_subscriber.cpython-312.pyc
+[9.566s]   File "/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_subscriber.py", line 12
+[9.567s]     self-laser_data=[]
+[9.568s]     ^^^^^^^^^^^^^^^
+[9.576s] SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+[9.593s] 
+[9.593s] byte-compiling /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/laser_data_publisher.py to laser_data_publisher.cpython-312.pyc
+[9.604s] running install_data
+[9.604s] running install_egg_info
+[9.801s] removing '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[9.835s] Copying ../../build/v1_topic_pkg/v1_topic_pkg.egg-info to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info
+[9.849s] running install_scripts
+[10.774s] Installing laser_data_publisher script to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/v1_topic_pkg
+[10.783s] Installing laser_data_subscriber script to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/v1_topic_pkg
+[10.793s] writing list of installed files to '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log'
+[10.962s] Invoked command in '/home/bachelor/ros2_ws/src/v1_topic_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data

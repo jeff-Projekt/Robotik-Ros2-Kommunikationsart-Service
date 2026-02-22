@@ -1,0 +1,22 @@
+[6.566s] Invoking command in '/home/bachelor/ros2_ws/src/my_py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/bachelor/ros2_ws/build/my_py_pkg/build install --record /home/bachelor/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[8.672s] running egg_info
+[8.809s] writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO
+[8.825s] writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt
+[8.826s] writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt
+[8.849s] writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt
+[8.858s] writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt
+[9.198s] reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[9.201s] writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'
+[9.209s] running build
+[9.210s] running build_py
+[9.211s] running install
+[9.270s] running install_lib
+[9.493s] running install_data
+[9.494s] running install_egg_info
+[9.675s] removing '/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[9.677s] Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info
+[9.685s] running install_scripts
+[10.589s] Installing number_publisher script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.608s] Installing test_node script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg
+[10.623s] writing list of installed files to '/home/bachelor/ros2_ws/build/my_py_pkg/install.log'
+[10.896s] Invoked command in '/home/bachelor/ros2_ws/src/my_py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/bachelor/ros2_ws/build/my_py_pkg/build install --record /home/bachelor/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data

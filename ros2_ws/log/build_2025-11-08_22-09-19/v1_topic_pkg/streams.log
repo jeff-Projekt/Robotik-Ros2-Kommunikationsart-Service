@@ -1,0 +1,22 @@
+[4.923s] Invoking command in '/home/bachelor/ros2_ws/src/v1_topic_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data
+[6.157s] running egg_info
+[6.253s] writing ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/PKG-INFO
+[6.260s] writing dependency_links to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/dependency_links.txt
+[6.262s] writing entry points to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/entry_points.txt
+[6.267s] writing requirements to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/requires.txt
+[6.285s] writing top-level names to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/top_level.txt
+[6.482s] reading manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[6.494s] writing manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'
+[6.506s] running build
+[6.507s] running build_py
+[6.514s] running install
+[6.535s] running install_lib
+[6.635s] running install_data
+[6.636s] running install_egg_info
+[6.749s] removing '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[6.759s] Copying ../../build/v1_topic_pkg/v1_topic_pkg.egg-info to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info
+[6.764s] running install_scripts
+[7.351s] Installing laser_data_publisher script to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/v1_topic_pkg
+[7.362s] Installing laser_data_subscriber script to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/v1_topic_pkg
+[7.365s] writing list of installed files to '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log'
+[7.504s] Invoked command in '/home/bachelor/ros2_ws/src/v1_topic_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data

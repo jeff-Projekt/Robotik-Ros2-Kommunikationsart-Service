@@ -1,0 +1,73 @@
+[0.036s] Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox -DCMAKE_INSTALL_PREFIX=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox
+[0.377s] -- The C compiler identification is GNU 13.3.0
+[0.664s] -- The CXX compiler identification is GNU 13.3.0
+[0.754s] -- Detecting C compiler ABI info
+[1.279s] -- Detecting C compiler ABI info - done
+[1.317s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.318s] -- Detecting C compile features
+[1.323s] -- Detecting C compile features - done
+[1.386s] -- Detecting CXX compiler ABI info
+[1.897s] -- Detecting CXX compiler ABI info - done
+[1.935s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.936s] -- Detecting CXX compile features
+[1.943s] -- Detecting CXX compile features - done
+[1.954s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.655s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.320s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.749s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.894s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[4.068s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.269s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.995s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.028s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[5.701s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[5.800s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[5.931s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.513s] -- Found rclcpp_action: 28.1.12 (/opt/ros/jazzy/share/rclcpp_action/cmake)
+[6.960s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[7.112s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[7.450s] -- Found turtlebot4_msgs: 2.1.1 (/opt/ros/jazzy/share/turtlebot4_msgs/cmake)
+[7.560s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.078s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.079s] -- Configured cppcheck include dirs: /home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox/include
+[8.082s] -- Configured cppcheck exclude dirs and/or files: 
+[8.082s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.088s] -- Configured cpplint exclude dirs and/or files: 
+[8.089s] -- Added test 'lint_cmake' to check CMake code style
+[8.100s] -- Added test 'uncrustify' to check C / C++ code style
+[8.100s] -- Configured uncrustify additional arguments: 
+[8.102s] -- Added test 'xmllint' to check XML markup files
+[8.130s] -- Configuring done (8.0s)
+[8.224s] -- Generating done (0.1s)
+[8.248s] -- Build files have been written to: /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox
+[8.284s] Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox -DCMAKE_INSTALL_PREFIX=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox
+[8.285s] Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[8.575s] [ 20%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_toolbox_lib.dir/src/hmi_main.cpp.o[0m
+[21.958s] [ 40%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_toolbox_lib.dir/src/hmi_node.cpp.o[0m
+[75.661s] [ 60%] [32m[1mLinking CXX static library libturtlebot4_gz_toolbox_lib.a[0m
+[76.530s] [ 60%] Built target turtlebot4_gz_toolbox_lib
+[76.639s] [ 80%] [32mBuilding CXX object CMakeFiles/turtlebot4_gz_hmi_node.dir/src/hmi_main.cpp.o[0m
+[87.981s] [100%] [32m[1mLinking CXX executable turtlebot4_gz_hmi_node[0m
+[90.326s] [100%] Built target turtlebot4_gz_hmi_node
+[90.387s] Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[90.393s] Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox
+[90.432s] -- Install configuration: ""
+[90.433s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/turtlebot4_gz_toolbox/turtlebot4_gz_hmi_node
+[90.466s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/turtlebot4_gz_toolbox/turtlebot4_gz_hmi_node" to ""
+[90.467s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/package_run_dependencies/turtlebot4_gz_toolbox
+[90.468s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/parent_prefix_path/turtlebot4_gz_toolbox
+[90.469s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.sh
+[90.469s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/ament_prefix_path.dsv
+[90.483s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.sh
+[90.484s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/environment/path.dsv
+[90.485s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.bash
+[90.497s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.sh
+[90.497s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.zsh
+[90.498s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/local_setup.dsv
+[90.499s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.dsv
+[90.500s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/ament_index/resource_index/packages/turtlebot4_gz_toolbox
+[90.500s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[90.500s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig.cmake
+[90.501s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/cmake/turtlebot4_gz_toolboxConfig-version.cmake
+[90.515s] -- Installing: /home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.xml
+[90.518s] Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox

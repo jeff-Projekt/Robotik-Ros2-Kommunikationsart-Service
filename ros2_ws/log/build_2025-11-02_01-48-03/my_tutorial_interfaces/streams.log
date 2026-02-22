@@ -1,0 +1,231 @@
+[0.053s] Invoking command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bachelor/ros2_ws/src/my_tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/bachelor/ros2_ws/install/my_tutorial_interfaces
+[1.291s] -- The C compiler identification is GNU 13.3.0
+[2.046s] -- The CXX compiler identification is GNU 13.3.0
+[2.227s] -- Detecting C compiler ABI info
+[2.820s] -- Detecting C compiler ABI info - done
+[2.880s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.890s] -- Detecting C compile features
+[2.894s] -- Detecting C compile features - done
+[2.989s] -- Detecting CXX compiler ABI info
+[3.656s] -- Detecting CXX compiler ABI info - done
+[3.710s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.711s] -- Detecting CXX compile features
+[3.712s] -- Detecting CXX compile features - done
+[3.843s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.539s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.251s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[5.326s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.177s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[9.641s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[11.571s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.991s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.012s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[14.610s] -- Found PythonExtra: /usr/bin/python3  
+[16.533s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[16.777s] -- Configuring done (16.5s)
+[16.979s] -- Generating done (0.2s)
+[17.039s] -- Build files have been written to: /home/bachelor/ros2_ws/build/my_tutorial_interfaces
+[17.063s] Invoked command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/bachelor/ros2_ws/src/my_tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/bachelor/ros2_ws/install/my_tutorial_interfaces
+[17.071s] Invoking command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/my_tutorial_interfaces -- -j1 -l1
+[17.361s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[18.627s] [  2%] Built target my_tutorial_interfaces__rosidl_generator_type_description
+[18.742s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.987s] [  5%] Built target my_tutorial_interfaces__cpp
+[20.038s] [  8%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.410s] [ 11%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_tutorial_interfaces/srv/detail/reset_counter__description.c.o[0m
+[21.845s] [ 14%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_tutorial_interfaces/srv/detail/reset_counter__functions.c.o[0m
+[22.206s] [ 17%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[22.430s] [ 20%] [32m[1mLinking C shared library libmy_tutorial_interfaces__rosidl_generator_c.so[0m
+[22.643s] [ 20%] Built target my_tutorial_interfaces__rosidl_generator_c
+[22.683s] [ 23%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.755s] [ 26%] [32mBuilding CXX object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/my_tutorial_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[26.148s] [ 29%] [32m[1mLinking CXX shared library libmy_tutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[26.569s] [ 29%] Built target my_tutorial_interfaces__rosidl_typesupport_cpp
+[26.632s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[28.055s] [ 35%] [32mBuilding CXX object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/my_tutorial_interfaces/srv/detail/reset_counter__type_support_c.cpp.o[0m
+[30.454s] [ 38%] [32m[1mLinking CXX shared library libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[30.722s] [ 38%] Built target my_tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[30.773s] [ 41%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[32.214s] [ 44%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c.o[0m
+[32.622s] [ 47%] [32m[1mLinking C shared library libmy_tutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[32.837s] [ 47%] Built target my_tutorial_interfaces__rosidl_typesupport_introspection_c
+[32.892s] [ 50%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[34.076s] [ 52%] [32mBuilding CXX object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/my_tutorial_interfaces/srv/reset_counter__type_support.cpp.o[0m
+[34.358s] [ 55%] [32m[1mLinking CXX shared library libmy_tutorial_interfaces__rosidl_typesupport_c.so[0m
+[34.618s] [ 55%] Built target my_tutorial_interfaces__rosidl_typesupport_c
+[34.692s] [ 58%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[36.842s] [ 61%] [32mBuilding CXX object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/my_tutorial_interfaces/srv/detail/dds_fastrtps/reset_counter__type_support.cpp.o[0m
+[41.278s] [ 64%] [32m[1mLinking CXX shared library libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[41.776s] [ 64%] Built target my_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[41.860s] [ 67%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[43.246s] [ 70%] [32mBuilding CXX object CMakeFiles/my_tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/my_tutorial_interfaces/srv/detail/reset_counter__type_support.cpp.o[0m
+[45.531s] [ 73%] [32m[1mLinking CXX shared library libmy_tutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[46.040s] [ 73%] Built target my_tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[46.189s] [ 73%] Built target my_tutorial_interfaces
+[46.378s] [ 73%] Built target ament_cmake_python_copy_my_tutorial_interfaces
+[47.536s] running egg_info
+[47.544s] creating my_tutorial_interfaces.egg-info
+[47.651s] writing my_tutorial_interfaces.egg-info/PKG-INFO
+[47.652s] writing dependency_links to my_tutorial_interfaces.egg-info/dependency_links.txt
+[47.655s] writing top-level names to my_tutorial_interfaces.egg-info/top_level.txt
+[47.656s] writing manifest file 'my_tutorial_interfaces.egg-info/SOURCES.txt'
+[48.086s] reading manifest file 'my_tutorial_interfaces.egg-info/SOURCES.txt'
+[48.140s] writing manifest file 'my_tutorial_interfaces.egg-info/SOURCES.txt'
+[48.370s] [ 73%] Built target ament_cmake_python_build_my_tutorial_interfaces_egg
+[48.563s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[50.878s] [ 76%] Built target my_tutorial_interfaces__py
+[51.037s] [ 79%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_tutorial_interfaces/srv/_reset_counter_s.c.o[0m
+[52.164s] [ 82%] [32m[1mLinking C shared library libmy_tutorial_interfaces__rosidl_generator_py.so[0m
+[52.400s] [ 82%] Built target my_tutorial_interfaces__rosidl_generator_py
+[52.545s] [ 85%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[53.143s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[53.337s] [ 88%] Built target my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c
+[53.503s] [ 91%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.080s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[54.287s] [ 94%] Built target my_tutorial_interfaces_s__rosidl_typesupport_introspection_c
+[54.429s] [ 97%] [32mBuilding C object CMakeFiles/my_tutorial_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[55.005s] [100%] [32m[1mLinking C shared module rosidl_generator_py/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so[0m
+[55.212s] [100%] Built target my_tutorial_interfaces_s__rosidl_typesupport_c
+[55.283s] Invoked command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/my_tutorial_interfaces -- -j1 -l1
+[55.326s] Invoking command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/my_tutorial_interfaces
+[55.391s] -- Install configuration: ""
+[55.392s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_tutorial_interfaces
+[55.393s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.json
+[55.394s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.394s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.395s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.396s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__struct.h
+[55.396s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.h
+[55.397s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__functions.c
+[55.398s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__functions.h
+[55.399s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c
+[55.415s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__description.c
+[55.416s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/reset_counter.h
+[55.417s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg
+[55.417s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[55.417s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/library_path.sh
+[55.417s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/library_path.dsv
+[55.417s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_c.so
+[55.417s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_c.so" to ""
+[55.417s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.418s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.418s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.418s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h
+[55.418s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg
+[55.418s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[55.418s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[55.425s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[55.425s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.425s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.425s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.425s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h
+[55.426s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c
+[55.427s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg
+[55.427s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[55.428s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_c.so
+[55.428s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[55.429s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_c.so
+[55.430s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_c.so" to ""
+[55.430s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.434s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.434s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.435s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__builder.hpp
+[55.435s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__traits.hpp
+[55.436s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.hpp
+[55.438s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__struct.hpp
+[55.439s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/reset_counter.hpp
+[55.439s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg
+[55.440s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[55.440s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.457s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.466s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.466s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp
+[55.466s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/dds_fastrtps
+[55.466s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg
+[55.467s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[55.467s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[55.467s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[55.467s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces
+[55.467s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv
+[55.467s] -- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail
+[55.468s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp
+[55.468s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.cpp
+[55.471s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[55.471s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[55.471s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_cpp.so
+[55.471s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[55.502s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/pythonpath.sh
+[55.503s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/pythonpath.dsv
+[55.515s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info
+[55.515s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[55.515s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_c.c
+[55.516s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/_reset_counter_s.c
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/__init__.py
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/_reset_counter.py
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.517s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[55.518s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/__init__.py
+[55.518s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[55.744s] Listing '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces'...
+[55.744s] Compiling '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/__init__.py'...
+[55.744s] Listing '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv'...
+[55.745s] Compiling '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/__init__.py'...
+[55.745s] Compiling '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/_reset_counter.py'...
+[55.810s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[55.811s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[55.811s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so
+[55.811s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[55.811s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so
+[55.811s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so" to ""
+[55.811s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_py.so
+[55.812s] -- Set non-toolchain portion of runtime path of "/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_py.so" to ""
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.idl
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.srv
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/my_tutorial_interfaces
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/my_tutorial_interfaces
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/ament_prefix_path.sh
+[55.812s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/ament_prefix_path.dsv
+[55.813s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/path.sh
+[55.813s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/path.dsv
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.bash
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.sh
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.zsh
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.dsv
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.dsv
+[55.829s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/packages/my_tutorial_interfaces
+[55.830s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cExport.cmake
+[55.830s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[55.830s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[55.830s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[55.830s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[55.831s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[55.831s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[55.831s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[55.838s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cppExport.cmake
+[55.838s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[55.838s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[55.838s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[55.839s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[55.840s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[55.841s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[55.841s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_pyExport.cmake
+[55.842s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[55.843s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[55.870s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.870s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.870s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[55.870s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[55.871s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[55.871s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[55.871s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfacesConfig.cmake
+[55.871s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfacesConfig-version.cmake
+[55.871s] -- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.xml
+[55.871s] Invoked command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/my_tutorial_interfaces

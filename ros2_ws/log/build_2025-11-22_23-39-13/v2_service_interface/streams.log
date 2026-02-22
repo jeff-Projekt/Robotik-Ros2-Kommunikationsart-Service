@@ -1,0 +1,152 @@
+[0.147s] Invoking command in '/home/bachelor/ros2_ws/build/v2_service_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/v2_service_interface -- -j1 -l1
+[1.867s] [  2%] Built target v2_service_interface__rosidl_generator_type_description
+[2.376s] [ 17%] Built target v2_service_interface__rosidl_generator_c
+[2.858s] [ 26%] Built target v2_service_interface__rosidl_typesupport_fastrtps_c
+[3.390s] [ 35%] Built target v2_service_interface__rosidl_typesupport_introspection_c
+[3.785s] [ 44%] Built target v2_service_interface__rosidl_typesupport_c
+[4.147s] [ 47%] Built target v2_service_interface__cpp
+[4.584s] [ 55%] Built target v2_service_interface__rosidl_typesupport_fastrtps_cpp
+[5.148s] [ 64%] Built target v2_service_interface__rosidl_typesupport_introspection_cpp
+[5.696s] [ 73%] Built target v2_service_interface__rosidl_typesupport_cpp
+[6.151s] [ 73%] Built target v2_service_interface
+[6.838s] [ 73%] Built target ament_cmake_python_copy_v2_service_interface
+[9.816s] running egg_info
+[10.067s] writing v2_service_interface.egg-info/PKG-INFO
+[10.118s] writing dependency_links to v2_service_interface.egg-info/dependency_links.txt
+[10.125s] writing top-level names to v2_service_interface.egg-info/top_level.txt
+[10.954s] reading manifest file 'v2_service_interface.egg-info/SOURCES.txt'
+[10.984s] writing manifest file 'v2_service_interface.egg-info/SOURCES.txt'
+[11.364s] [ 73%] Built target ament_cmake_python_build_v2_service_interface_egg
+[11.734s] [ 76%] Built target v2_service_interface__py
+[12.215s] [ 82%] Built target v2_service_interface__rosidl_generator_py
+[12.614s] [ 88%] Built target v2_service_interface_s__rosidl_typesupport_fastrtps_c
+[13.127s] [ 94%] Built target v2_service_interface_s__rosidl_typesupport_introspection_c
+[13.575s] [100%] Built target v2_service_interface_s__rosidl_typesupport_c
+[13.775s] Invoked command in '/home/bachelor/ros2_ws/build/v2_service_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/v2_service_interface -- -j1 -l1
+[13.811s] Invoking command in '/home/bachelor/ros2_ws/build/v2_service_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/v2_service_interface
+[13.969s] -- Install configuration: ""
+[13.969s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/rosidl_interfaces/v2_service_interface
+[13.969s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.json
+[13.981s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[13.981s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[13.981s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[13.982s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__functions.c
+[13.982s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.c
+[13.985s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__description.c
+[13.985s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__functions.h
+[13.991s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__struct.h
+[13.991s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.h
+[13.992s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/set_scan_frequency.h
+[13.992s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg
+[13.992s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_generator_c__visibility_control.h
+[13.999s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/library_path.sh
+[14.006s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/library_path.dsv
+[14.056s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_c.so
+[14.056s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[14.056s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[14.056s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[14.056s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_fastrtps_c.h
+[14.057s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg
+[14.057s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.082s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_c.so
+[14.084s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[14.084s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[14.084s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[14.084s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.c
+[14.119s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_introspection_c.h
+[14.120s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg
+[14.120s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.152s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_c.so
+[14.153s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_c.so
+[14.153s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[14.153s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[14.153s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[14.153s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.hpp
+[14.154s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__struct.hpp
+[14.154s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__builder.hpp
+[14.154s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__traits.hpp
+[14.154s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/set_scan_frequency.hpp
+[14.154s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_fastrtps_cpp.hpp
+[14.155s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/dds_fastrtps
+[14.156s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg
+[14.156s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.181s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_fastrtps_cpp.so
+[14.182s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface
+[14.182s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv
+[14.182s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail
+[14.182s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__type_support.cpp
+[14.182s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/include/v2_service_interface/v2_service_interface/srv/detail/set_scan_frequency__rosidl_typesupport_introspection_cpp.hpp
+[14.213s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_introspection_cpp.so
+[14.218s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_typesupport_cpp.so
+[14.218s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/pythonpath.sh
+[14.218s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/pythonpath.dsv
+[14.218s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info
+[14.238s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[14.238s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[14.256s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/top_level.txt
+[14.281s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[14.281s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/_set_scan_frequency_s.c
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/__init__.py
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv/_set_scan_frequency.py
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so
+[14.282s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_c.c
+[14.283s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so
+[14.283s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/__init__.py
+[14.283s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so
+[14.283s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_introspection_c.c
+[14.283s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/_v2_service_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[15.988s] Listing '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface'...
+[15.988s] Listing '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/srv'...
+[16.276s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_fastrtps_c.so
+[16.332s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_introspection_c.so
+[16.332s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages/v2_service_interface/v2_service_interface_s__rosidl_typesupport_c.so
+[16.422s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/lib/libv2_service_interface__rosidl_generator_py.so
+[16.422s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.idl
+[16.422s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/srv/SetScanFrequency.srv
+[16.422s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/package_run_dependencies/v2_service_interface
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/parent_prefix_path/v2_service_interface
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/ament_prefix_path.sh
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/ament_prefix_path.dsv
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/path.sh
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/environment/path.dsv
+[16.423s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.bash
+[16.424s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.sh
+[16.424s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.zsh
+[16.424s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/local_setup.dsv
+[16.424s] -- Installing: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.dsv
+[16.467s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/ament_index/resource_index/packages/v2_service_interface
+[16.493s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cExport.cmake
+[16.493s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cExport-noconfig.cmake
+[16.497s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[16.501s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.514s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cExport.cmake
+[16.517s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.524s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cExport.cmake
+[16.529s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cExport-noconfig.cmake
+[16.543s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_cppExport.cmake
+[16.575s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.575s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.613s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cppExport.cmake
+[16.616s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.636s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cppExport.cmake
+[16.636s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[16.648s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_pyExport.cmake
+[16.648s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/export_v2_service_interface__rosidl_generator_pyExport-noconfig.cmake
+[16.649s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake-extras.cmake
+[16.649s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.649s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.666s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[16.666s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/ament_cmake_export_targets-extras.cmake
+[16.685s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.685s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.685s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interfaceConfig.cmake
+[16.685s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/cmake/v2_service_interfaceConfig-version.cmake
+[16.685s] -- Up-to-date: /home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.xml
+[16.709s] Invoked command in '/home/bachelor/ros2_ws/build/v2_service_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/v2_service_interface

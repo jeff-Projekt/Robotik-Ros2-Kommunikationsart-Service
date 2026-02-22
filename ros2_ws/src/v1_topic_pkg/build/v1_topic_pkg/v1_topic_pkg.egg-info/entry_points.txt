@@ -1,0 +1,3 @@
+[console_scripts]
+laser_data_publisher = v1_topic_pkg.laser_data_publisher:main
+laser_data_subscriber = v1_topic_pkg.laser_data_subscriber:main

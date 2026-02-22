@@ -1,0 +1,76 @@
+[5.585s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/bachelor/ros2_ws', '--log-base', '/dev/null']
+[5.585s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/bachelor/ros2_ws', '--log-base', '/dev/null'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7d32d929c650>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7d32d929c4a0>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7d32d929c4a0>>, mixin_verb=('list',))
+[7.043s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[7.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[7.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[7.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[7.053s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[7.053s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bachelor/ros2_ws', '/home/bachelor/ros2_ws/--log-base', '/dev/null'
+[7.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['ignore', 'ignore_ament_install']
+[7.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'ignore'
+[7.054s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'ignore_ament_install'
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['colcon_pkg']
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'colcon_pkg'
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['colcon_meta']
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'colcon_meta'
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['ros']
+[7.055s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'ros'
+[8.420s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['cmake', 'python']
+[8.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'cmake'
+[8.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'python'
+[8.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extensions ['python_setup_py']
+[8.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws) by extension 'python_setup_py'
+[8.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[8.428s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/build) by extension 'ignore'
+[8.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/build) ignored
+[8.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[8.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/install) by extension 'ignore'
+[8.429s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/install) ignored
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/log) by extension 'ignore'
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/log) ignored
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'ignore'
+[8.430s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'ignore_ament_install'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['colcon_pkg']
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'colcon_pkg'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['colcon_meta']
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'colcon_meta'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['ros']
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'ros'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['cmake', 'python']
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'cmake'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'python'
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extensions ['python_setup_py']
+[8.431s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src) by extension 'python_setup_py'
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extension 'ignore'
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extension 'ignore_ament_install'
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extensions ['colcon_pkg']
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extension 'colcon_pkg'
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extensions ['colcon_meta']
+[8.432s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extension 'colcon_meta'
+[8.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extensions ['ros']
+[8.465s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_py_pkg) by extension 'ros'
+[8.472s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bachelor/ros2_ws/src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[8.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[8.472s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extension 'ignore'
+[8.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extension 'ignore_ament_install'
+[8.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extensions ['colcon_pkg']
+[8.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extension 'colcon_pkg'
+[8.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extensions ['colcon_meta']
+[8.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extension 'colcon_meta'
+[8.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extensions ['ros']
+[8.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/my_tutorial_interfaces) by extension 'ros'
+[8.541s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bachelor/ros2_ws/src/my_tutorial_interfaces' with type 'ros.ament_cmake' and name 'my_tutorial_interfaces'
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extension 'ignore'
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extension 'ignore_ament_install'
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extensions ['colcon_pkg']
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extension 'colcon_pkg'
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extensions ['colcon_meta']
+[8.542s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extension 'colcon_meta'
+[8.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extensions ['ros']
+[8.543s] Level 1:colcon.colcon_core.package_identification:_identify(/home/bachelor/ros2_ws/src/v1_topic_pkg) by extension 'ros'
+[8.544s] DEBUG:colcon.colcon_core.package_identification:Package '/home/bachelor/ros2_ws/src/v1_topic_pkg' with type 'ros.ament_python' and name 'v1_topic_pkg'
+[8.544s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

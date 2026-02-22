@@ -1,0 +1,470 @@
+[0.000000] (-) TimerEvent: {}
+[0.026328] (my_tutorial_interfaces) JobQueued: {'identifier': 'my_tutorial_interfaces', 'dependencies': OrderedDict()}
+[0.026456] (v1_topic_pkg) JobQueued: {'identifier': 'v1_topic_pkg', 'dependencies': OrderedDict()}
+[0.026493] (my_py_pkg) JobQueued: {'identifier': 'my_py_pkg', 'dependencies': OrderedDict({'my_tutorial_interfaces': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces'})}
+[0.026533] (my_tutorial_interfaces) JobStarted: {'identifier': 'my_tutorial_interfaces'}
+[0.096203] (my_tutorial_interfaces) JobProgress: {'identifier': 'my_tutorial_interfaces', 'progress': 'cmake'}
+[0.100683] (-) TimerEvent: {}
+[0.102984] (my_tutorial_interfaces) JobProgress: {'identifier': 'my_tutorial_interfaces', 'progress': 'build'}
+[0.105663] (my_tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bachelor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2390', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2224,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/384bee20_ca8e_48e9_8c4d_9cc19990cb89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7GOCF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.203407] (-) TimerEvent: {}
+[0.316310] (-) TimerEvent: {}
+[0.427812] (-) TimerEvent: {}
+[0.545678] (-) TimerEvent: {}
+[0.606759] (my_tutorial_interfaces) StdoutLine: {'line': b'[  2%] Built target my_tutorial_interfaces__rosidl_generator_type_description\n'}
+[0.649738] (-) TimerEvent: {}
+[0.741393] (my_tutorial_interfaces) StdoutLine: {'line': b'[  5%] Built target my_tutorial_interfaces__cpp\n'}
+[0.750091] (-) TimerEvent: {}
+[0.851863] (-) TimerEvent: {}
+[0.915318] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 20%] Built target my_tutorial_interfaces__rosidl_generator_c\n'}
+[0.959697] (-) TimerEvent: {}
+[1.061916] (-) TimerEvent: {}
+[1.094199] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 29%] Built target my_tutorial_interfaces__rosidl_typesupport_cpp\n'}
+[1.166045] (-) TimerEvent: {}
+[1.265458] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 38%] Built target my_tutorial_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.276056] (-) TimerEvent: {}
+[1.377778] (-) TimerEvent: {}
+[1.466296] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 47%] Built target my_tutorial_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.478382] (-) TimerEvent: {}
+[1.591027] (-) TimerEvent: {}
+[1.695771] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 55%] Built target my_tutorial_interfaces__rosidl_typesupport_c\n'}
+[1.696074] (-) TimerEvent: {}
+[1.803134] (-) TimerEvent: {}
+[1.877130] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 64%] Built target my_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.903738] (-) TimerEvent: {}
+[2.008918] (-) TimerEvent: {}
+[2.061772] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_tutorial_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[2.109891] (-) TimerEvent: {}
+[2.210677] (-) TimerEvent: {}
+[2.267749] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target my_tutorial_interfaces\n'}
+[2.313106] (-) TimerEvent: {}
+[2.420177] (-) TimerEvent: {}
+[2.528602] (-) TimerEvent: {}
+[2.596227] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_copy_my_tutorial_interfaces\n'}
+[2.633031] (-) TimerEvent: {}
+[2.740814] (-) TimerEvent: {}
+[2.844577] (-) TimerEvent: {}
+[2.954917] (-) TimerEvent: {}
+[3.056720] (-) TimerEvent: {}
+[3.160158] (-) TimerEvent: {}
+[3.264280] (-) TimerEvent: {}
+[3.377290] (-) TimerEvent: {}
+[3.485175] (-) TimerEvent: {}
+[3.595984] (-) TimerEvent: {}
+[3.708785] (-) TimerEvent: {}
+[3.813570] (-) TimerEvent: {}
+[3.920341] (-) TimerEvent: {}
+[4.041589] (-) TimerEvent: {}
+[4.152870] (-) TimerEvent: {}
+[4.254942] (-) TimerEvent: {}
+[4.361008] (-) TimerEvent: {}
+[4.474823] (-) TimerEvent: {}
+[4.587735] (-) TimerEvent: {}
+[4.688631] (-) TimerEvent: {}
+[4.794252] (-) TimerEvent: {}
+[4.895658] (-) TimerEvent: {}
+[4.997715] (-) TimerEvent: {}
+[5.062905] (my_tutorial_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[5.099737] (-) TimerEvent: {}
+[5.202724] (-) TimerEvent: {}
+[5.236674] (my_tutorial_interfaces) StdoutLine: {'line': b'writing my_tutorial_interfaces.egg-info/PKG-INFO\n'}
+[5.267957] (my_tutorial_interfaces) StdoutLine: {'line': b'writing dependency_links to my_tutorial_interfaces.egg-info/dependency_links.txt\n'}
+[5.269215] (my_tutorial_interfaces) StdoutLine: {'line': b'writing top-level names to my_tutorial_interfaces.egg-info/top_level.txt\n'}
+[5.310075] (-) TimerEvent: {}
+[5.411703] (-) TimerEvent: {}
+[5.520010] (-) TimerEvent: {}
+[5.647774] (-) TimerEvent: {}
+[5.702917] (my_tutorial_interfaces) StdoutLine: {'line': b"reading manifest file 'my_tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.714168] (my_tutorial_interfaces) StdoutLine: {'line': b"writing manifest file 'my_tutorial_interfaces.egg-info/SOURCES.txt'\n"}
+[5.750152] (-) TimerEvent: {}
+[5.857766] (-) TimerEvent: {}
+[5.959189] (-) TimerEvent: {}
+[5.999996] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_build_my_tutorial_interfaces_egg\n'}
+[6.059692] (-) TimerEvent: {}
+[6.160383] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 76%] Built target my_tutorial_interfaces__py\n'}
+[6.161193] (-) TimerEvent: {}
+[6.280615] (-) TimerEvent: {}
+[6.356058] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 82%] Built target my_tutorial_interfaces__rosidl_generator_py\n'}
+[6.380794] (-) TimerEvent: {}
+[6.497589] (-) TimerEvent: {}
+[6.578547] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 88%] Built target my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[6.597944] (-) TimerEvent: {}
+[6.710536] (-) TimerEvent: {}
+[6.782033] (my_tutorial_interfaces) StdoutLine: {'line': b'[ 94%] Built target my_tutorial_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[6.810758] (-) TimerEvent: {}
+[6.927268] (-) TimerEvent: {}
+[7.006093] (my_tutorial_interfaces) StdoutLine: {'line': b'[100%] Built target my_tutorial_interfaces_s__rosidl_typesupport_c\n'}
+[7.028745] (-) TimerEvent: {}
+[7.115017] (my_tutorial_interfaces) CommandEnded: {'returncode': 0}
+[7.115520] (my_tutorial_interfaces) JobProgress: {'identifier': 'my_tutorial_interfaces', 'progress': 'install'}
+[7.131667] (-) TimerEvent: {}
+[7.195432] (my_tutorial_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/bachelor/ros2_ws/build/my_tutorial_interfaces'], 'cwd': '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bachelor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2390', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2224,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/384bee20_ca8e_48e9_8c4d_9cc19990cb89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7GOCF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[7.238722] (-) TimerEvent: {}
+[7.267544] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.268253] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_tutorial_interfaces\n'}
+[7.269955] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.json\n'}
+[7.270790] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.272336] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.272593] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.274680] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__struct.h\n'}
+[7.274952] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.h\n'}
+[7.275101] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__functions.c\n'}
+[7.275241] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__functions.h\n'}
+[7.275381] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c\n'}
+[7.289977] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__description.c\n'}
+[7.290261] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/reset_counter.h\n'}
+[7.290408] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg\n'}
+[7.290546] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.290683] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/library_path.sh\n'}
+[7.290820] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/library_path.dsv\n'}
+[7.291276] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_c.so\n'}
+[7.291439] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.291580] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.291809] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.292037] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_c.h\n'}
+[7.292289] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg\n'}
+[7.292430] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.292567] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.292703] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.292839] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.293050] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.293188] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h\n'}
+[7.293325] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.c\n'}
+[7.293461] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg\n'}
+[7.293597] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.293731] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.295322] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_c.so\n'}
+[7.295536] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.295675] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.295861] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.299792] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__builder.hpp\n'}
+[7.300087] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__traits.hpp\n'}
+[7.301033] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.hpp\n'}
+[7.302290] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__struct.hpp\n'}
+[7.303941] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/reset_counter.hpp\n'}
+[7.305297] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg\n'}
+[7.305643] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.306142] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.306563] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.315805] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.315952] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.316240] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/dds_fastrtps\n'}
+[7.316398] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg\n'}
+[7.316535] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.316671] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.316806] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces\n'}
+[7.316940] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv\n'}
+[7.329052] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail\n'}
+[7.329244] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.329399] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/include/my_tutorial_interfaces/my_tutorial_interfaces/srv/detail/reset_counter__type_support.cpp\n'}
+[7.329537] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.329672] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.329807] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/pythonpath.sh\n'}
+[7.329941] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/pythonpath.dsv\n'}
+[7.330097] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info\n'}
+[7.330283] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[7.330421] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[7.330566] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[7.330702] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[7.330835] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces\n'}
+[7.330969] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.331104] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.331298] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv\n'}
+[7.331433] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/_reset_counter_s.c\n'}
+[7.331566] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/__init__.py\n'}
+[7.331699] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv/_reset_counter.py\n'}
+[7.331832] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.331965] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/_my_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.332124] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.332319] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/__init__.py\n'}
+[7.332454] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.339643] (-) TimerEvent: {}
+[7.455689] (-) TimerEvent: {}
+[7.549611] (my_tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces'...\n"}
+[7.551140] (my_tutorial_interfaces) StdoutLine: {'line': b"Listing '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/srv'...\n"}
+[7.559745] (-) TimerEvent: {}
+[7.602786] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[7.605636] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[7.611022] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages/my_tutorial_interfaces/my_tutorial_interfaces_s__rosidl_typesupport_c.so\n'}
+[7.611432] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/libmy_tutorial_interfaces__rosidl_generator_py.so\n'}
+[7.612080] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.idl\n'}
+[7.612621] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/srv/ResetCounter.srv\n'}
+[7.612998] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/my_tutorial_interfaces\n'}
+[7.613402] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/my_tutorial_interfaces\n'}
+[7.613938] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/ament_prefix_path.sh\n'}
+[7.614094] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.614688] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/path.sh\n'}
+[7.614846] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/environment/path.dsv\n'}
+[7.614985] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.bash\n'}
+[7.615832] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.sh\n'}
+[7.615991] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.zsh\n'}
+[7.616130] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/local_setup.dsv\n'}
+[7.632738] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Installing: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.dsv\n'}
+[7.633374] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/ament_index/resource_index/packages/my_tutorial_interfaces\n'}
+[7.633556] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.634891] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.636926] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.654257] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.654868] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.655332] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.655552] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.656455] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.656785] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.656925] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.657063] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.657199] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.657333] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.657469] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.657605] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.669802] (-) TimerEvent: {}
+[7.670059] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.670242] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/export_my_tutorial_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.670752] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.671384] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.671567] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.671705] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.671840] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.672037] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.672185] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.672322] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfacesConfig.cmake\n'}
+[7.672458] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/cmake/my_tutorial_interfacesConfig-version.cmake\n'}
+[7.672731] (my_tutorial_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.xml\n'}
+[7.673006] (my_tutorial_interfaces) CommandEnded: {'returncode': 0}
+[7.772622] (-) TimerEvent: {}
+[7.871326] (my_tutorial_interfaces) JobEnded: {'identifier': 'my_tutorial_interfaces', 'rc': 0}
+[7.886839] (-) TimerEvent: {}
+[7.888454] (v1_topic_pkg) JobStarted: {'identifier': 'v1_topic_pkg'}
+[7.989991] (-) TimerEvent: {}
+[8.096702] (-) TimerEvent: {}
+[8.197752] (-) TimerEvent: {}
+[8.303738] (-) TimerEvent: {}
+[8.407838] (-) TimerEvent: {}
+[8.508648] (-) TimerEvent: {}
+[8.623011] (-) TimerEvent: {}
+[8.725647] (-) TimerEvent: {}
+[8.842720] (-) TimerEvent: {}
+[8.943560] (-) TimerEvent: {}
+[9.058693] (-) TimerEvent: {}
+[9.159809] (-) TimerEvent: {}
+[9.260640] (-) TimerEvent: {}
+[9.361751] (-) TimerEvent: {}
+[9.468797] (-) TimerEvent: {}
+[9.591955] (-) TimerEvent: {}
+[9.693185] (-) TimerEvent: {}
+[9.797736] (-) TimerEvent: {}
+[9.905683] (-) TimerEvent: {}
+[10.008678] (-) TimerEvent: {}
+[10.113507] (-) TimerEvent: {}
+[10.219821] (-) TimerEvent: {}
+[10.339715] (-) TimerEvent: {}
+[10.442964] (-) TimerEvent: {}
+[10.543669] (-) TimerEvent: {}
+[10.659759] (-) TimerEvent: {}
+[10.777097] (-) TimerEvent: {}
+[10.886307] (-) TimerEvent: {}
+[10.993293] (-) TimerEvent: {}
+[11.095462] (-) TimerEvent: {}
+[11.210049] (-) TimerEvent: {}
+[11.311788] (-) TimerEvent: {}
+[11.413767] (-) TimerEvent: {}
+[11.515467] (-) TimerEvent: {}
+[11.622661] (-) TimerEvent: {}
+[11.725503] (-) TimerEvent: {}
+[11.826977] (-) TimerEvent: {}
+[11.929643] (-) TimerEvent: {}
+[12.033684] (-) TimerEvent: {}
+[12.138724] (-) TimerEvent: {}
+[12.239593] (-) TimerEvent: {}
+[12.342977] (-) TimerEvent: {}
+[12.445607] (-) TimerEvent: {}
+[12.551754] (-) TimerEvent: {}
+[12.662860] (-) TimerEvent: {}
+[12.768557] (-) TimerEvent: {}
+[12.877137] (-) TimerEvent: {}
+[12.980556] (-) TimerEvent: {}
+[13.087841] (-) TimerEvent: {}
+[13.191735] (-) TimerEvent: {}
+[13.293665] (-) TimerEvent: {}
+[13.395620] (-) TimerEvent: {}
+[13.497659] (-) TimerEvent: {}
+[13.612548] (-) TimerEvent: {}
+[13.713202] (-) TimerEvent: {}
+[13.822725] (-) TimerEvent: {}
+[13.923823] (-) TimerEvent: {}
+[14.014736] (v1_topic_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/v1_topic_pkg', 'build', '--build-base', '/home/bachelor/ros2_ws/build/v1_topic_pkg/build', 'install', '--record', '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bachelor/ros2_ws/src/v1_topic_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bachelor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2390', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2224,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/384bee20_ca8e_48e9_8c4d_9cc19990cb89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7GOCF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/v1_topic_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[14.027725] (-) TimerEvent: {}
+[14.140904] (-) TimerEvent: {}
+[14.243705] (-) TimerEvent: {}
+[14.345698] (-) TimerEvent: {}
+[14.447643] (-) TimerEvent: {}
+[14.554472] (-) TimerEvent: {}
+[14.663603] (-) TimerEvent: {}
+[14.772645] (-) TimerEvent: {}
+[14.873655] (-) TimerEvent: {}
+[14.975729] (-) TimerEvent: {}
+[15.078683] (-) TimerEvent: {}
+[15.180728] (-) TimerEvent: {}
+[15.282698] (-) TimerEvent: {}
+[15.397569] (-) TimerEvent: {}
+[15.503939] (-) TimerEvent: {}
+[15.606612] (-) TimerEvent: {}
+[15.709877] (-) TimerEvent: {}
+[15.752737] (v1_topic_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[15.760806] (v1_topic_pkg) StdoutLine: {'line': b'creating ../../build/v1_topic_pkg/v1_topic_pkg.egg-info\n'}
+[15.811591] (-) TimerEvent: {}
+[15.875973] (v1_topic_pkg) StdoutLine: {'line': b'writing ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/PKG-INFO\n'}
+[15.877270] (v1_topic_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/dependency_links.txt\n'}
+[15.882568] (v1_topic_pkg) StdoutLine: {'line': b'writing requirements to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/requires.txt\n'}
+[15.883943] (v1_topic_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/v1_topic_pkg/v1_topic_pkg.egg-info/top_level.txt\n'}
+[15.885321] (v1_topic_pkg) StdoutLine: {'line': b"writing manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'\n"}
+[15.918231] (-) TimerEvent: {}
+[16.030737] (-) TimerEvent: {}
+[16.131705] (-) TimerEvent: {}
+[16.146446] (v1_topic_pkg) StdoutLine: {'line': b"reading manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'\n"}
+[16.148136] (v1_topic_pkg) StdoutLine: {'line': b"writing manifest file '../../build/v1_topic_pkg/v1_topic_pkg.egg-info/SOURCES.txt'\n"}
+[16.177686] (v1_topic_pkg) StdoutLine: {'line': b'running build\n'}
+[16.177966] (v1_topic_pkg) StdoutLine: {'line': b'running build_py\n'}
+[16.178315] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/build/v1_topic_pkg/build\n'}
+[16.179077] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib\n'}
+[16.179341] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg\n'}
+[16.179852] (v1_topic_pkg) StdoutLine: {'line': b'copying v1_topic_pkg/__init__.py -> /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg\n'}
+[16.198676] (v1_topic_pkg) StdoutLine: {'line': b'running install\n'}
+[16.220483] (v1_topic_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[16.246554] (-) TimerEvent: {}
+[16.347114] (-) TimerEvent: {}
+[16.372543] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg\n'}
+[16.389406] (v1_topic_pkg) StdoutLine: {'line': b'copying /home/bachelor/ros2_ws/build/v1_topic_pkg/build/lib/v1_topic_pkg/__init__.py -> /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg\n'}
+[16.389974] (v1_topic_pkg) StdoutLine: {'line': b'byte-compiling /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[16.390125] (v1_topic_pkg) StdoutLine: {'line': b'running install_data\n'}
+[16.391237] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/install/v1_topic_pkg/share/ament_index\n'}
+[16.393026] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/install/v1_topic_pkg/share/ament_index/resource_index\n'}
+[16.394008] (v1_topic_pkg) StdoutLine: {'line': b'creating /home/bachelor/ros2_ws/install/v1_topic_pkg/share/ament_index/resource_index/packages\n'}
+[16.395180] (v1_topic_pkg) StdoutLine: {'line': b'copying resource/v1_topic_pkg -> /home/bachelor/ros2_ws/install/v1_topic_pkg/share/ament_index/resource_index/packages\n'}
+[16.405310] (v1_topic_pkg) StdoutLine: {'line': b'copying package.xml -> /home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg\n'}
+[16.405599] (v1_topic_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[16.456605] (-) TimerEvent: {}
+[16.526832] (v1_topic_pkg) StdoutLine: {'line': b'Copying ../../build/v1_topic_pkg/v1_topic_pkg.egg-info to /home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages/v1_topic_pkg-0.0.0-py3.12.egg-info\n'}
+[16.530138] (v1_topic_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[16.556882] (-) TimerEvent: {}
+[16.671614] (-) TimerEvent: {}
+[16.775663] (-) TimerEvent: {}
+[16.889765] (-) TimerEvent: {}
+[16.991708] (-) TimerEvent: {}
+[17.092668] (-) TimerEvent: {}
+[17.215937] (-) TimerEvent: {}
+[17.320782] (-) TimerEvent: {}
+[17.364710] (v1_topic_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bachelor/ros2_ws/build/v1_topic_pkg/install.log'\n"}
+[17.423660] (-) TimerEvent: {}
+[17.528588] (-) TimerEvent: {}
+[17.542459] (v1_topic_pkg) CommandEnded: {'returncode': 0}
+[17.591618] (v1_topic_pkg) JobEnded: {'identifier': 'v1_topic_pkg', 'rc': 0}
+[17.600340] (my_py_pkg) JobStarted: {'identifier': 'my_py_pkg'}
+[17.640705] (-) TimerEvent: {}
+[17.746949] (-) TimerEvent: {}
+[17.857670] (-) TimerEvent: {}
+[17.959662] (-) TimerEvent: {}
+[18.062533] (-) TimerEvent: {}
+[18.167946] (-) TimerEvent: {}
+[18.271562] (-) TimerEvent: {}
+[18.375614] (-) TimerEvent: {}
+[18.478881] (-) TimerEvent: {}
+[18.580527] (-) TimerEvent: {}
+[18.685752] (-) TimerEvent: {}
+[18.818941] (-) TimerEvent: {}
+[18.921732] (-) TimerEvent: {}
+[19.022713] (-) TimerEvent: {}
+[19.127691] (-) TimerEvent: {}
+[19.230686] (-) TimerEvent: {}
+[19.336582] (-) TimerEvent: {}
+[19.439586] (-) TimerEvent: {}
+[19.541666] (-) TimerEvent: {}
+[19.645684] (-) TimerEvent: {}
+[19.746700] (-) TimerEvent: {}
+[19.852986] (-) TimerEvent: {}
+[19.956708] (-) TimerEvent: {}
+[20.059661] (-) TimerEvent: {}
+[20.178919] (-) TimerEvent: {}
+[20.288706] (-) TimerEvent: {}
+[20.392725] (-) TimerEvent: {}
+[20.506769] (-) TimerEvent: {}
+[20.616007] (-) TimerEvent: {}
+[20.722696] (-) TimerEvent: {}
+[20.825572] (-) TimerEvent: {}
+[20.926638] (-) TimerEvent: {}
+[21.041645] (-) TimerEvent: {}
+[21.143610] (-) TimerEvent: {}
+[21.245631] (-) TimerEvent: {}
+[21.348597] (-) TimerEvent: {}
+[21.455701] (-) TimerEvent: {}
+[21.558701] (-) TimerEvent: {}
+[21.659572] (-) TimerEvent: {}
+[21.775716] (-) TimerEvent: {}
+[21.876858] (-) TimerEvent: {}
+[21.977555] (-) TimerEvent: {}
+[22.092690] (-) TimerEvent: {}
+[22.208613] (-) TimerEvent: {}
+[22.309607] (-) TimerEvent: {}
+[22.437654] (-) TimerEvent: {}
+[22.539999] (-) TimerEvent: {}
+[22.641693] (-) TimerEvent: {}
+[22.713387] (my_py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_py_pkg', 'build', '--build-base', '/home/bachelor/ros2_ws/build/my_py_pkg/build', 'install', '--record', '/home/bachelor/ros2_ws/build/my_py_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/bachelor/ros2_ws/src/my_py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'bachelor', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/bachelor', 'OLDPWD': '/home/bachelor/ros2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2390', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/bachelor/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'bachelor', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'bachelor', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/bachelor-VirtualBox:@/tmp/.ICE-unix/2224,unix/bachelor-VirtualBox:/tmp/.ICE-unix/2224', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/384bee20_ca8e_48e9_8c4d_9cc19990cb89', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.7GOCF3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.237', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_py_pkg:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/bachelor/ros2_ws/build/my_py_pkg', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/bachelor/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[22.746666] (-) TimerEvent: {}
+[22.847740] (-) TimerEvent: {}
+[22.960705] (-) TimerEvent: {}
+[23.064686] (-) TimerEvent: {}
+[23.168670] (-) TimerEvent: {}
+[23.280578] (-) TimerEvent: {}
+[23.395807] (-) TimerEvent: {}
+[23.496539] (-) TimerEvent: {}
+[23.611643] (-) TimerEvent: {}
+[23.714792] (-) TimerEvent: {}
+[23.821631] (-) TimerEvent: {}
+[23.924715] (-) TimerEvent: {}
+[24.025634] (-) TimerEvent: {}
+[24.141633] (-) TimerEvent: {}
+[24.242641] (-) TimerEvent: {}
+[24.357908] (-) TimerEvent: {}
+[24.459725] (-) TimerEvent: {}
+[24.530598] (my_py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[24.561522] (-) TimerEvent: {}
+[24.637609] (my_py_pkg) StdoutLine: {'line': b'writing ../../build/my_py_pkg/my_py_pkg.egg-info/PKG-INFO\n'}
+[24.643077] (my_py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/my_py_pkg/my_py_pkg.egg-info/dependency_links.txt\n'}
+[24.645346] (my_py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/my_py_pkg/my_py_pkg.egg-info/entry_points.txt\n'}
+[24.647465] (my_py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/my_py_pkg/my_py_pkg.egg-info/requires.txt\n'}
+[24.653008] (my_py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/my_py_pkg/my_py_pkg.egg-info/top_level.txt\n'}
+[24.664555] (-) TimerEvent: {}
+[24.771720] (-) TimerEvent: {}
+[24.872765] (-) TimerEvent: {}
+[24.927032] (my_py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[24.929125] (my_py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/my_py_pkg/my_py_pkg.egg-info/SOURCES.txt'\n"}
+[24.965374] (my_py_pkg) StdoutLine: {'line': b'running build\n'}
+[24.965771] (my_py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[24.966308] (my_py_pkg) StdoutLine: {'line': b'running install\n'}
+[24.976749] (-) TimerEvent: {}
+[25.009900] (my_py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[25.078575] (-) TimerEvent: {}
+[25.134436] (my_py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[25.135259] (my_py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[25.181886] (-) TimerEvent: {}
+[25.260496] (my_py_pkg) StdoutLine: {'line': b"removing '/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[25.260880] (my_py_pkg) StdoutLine: {'line': b'Copying ../../build/my_py_pkg/my_py_pkg.egg-info to /home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages/my_py_pkg-0.0.0-py3.12.egg-info\n'}
+[25.270891] (my_py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[25.287864] (-) TimerEvent: {}
+[25.391775] (-) TimerEvent: {}
+[25.492556] (-) TimerEvent: {}
+[25.607714] (-) TimerEvent: {}
+[25.711589] (-) TimerEvent: {}
+[25.824791] (-) TimerEvent: {}
+[25.925843] (-) TimerEvent: {}
+[26.028526] (-) TimerEvent: {}
+[26.093791] (my_py_pkg) StdoutLine: {'line': b'Installing number_counter script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[26.096933] (my_py_pkg) StdoutLine: {'line': b'Installing number_publisher script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[26.099438] (my_py_pkg) StdoutLine: {'line': b'Installing reset_counter_client script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[26.106763] (my_py_pkg) StdoutLine: {'line': b'Installing test_node script to /home/bachelor/ros2_ws/install/my_py_pkg/lib/my_py_pkg\n'}
+[26.108179] (my_py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/bachelor/ros2_ws/build/my_py_pkg/install.log'\n"}
+[26.132060] (-) TimerEvent: {}
+[26.243627] (-) TimerEvent: {}
+[26.331093] (my_py_pkg) CommandEnded: {'returncode': 0}
+[26.345803] (-) TimerEvent: {}
+[26.412811] (my_py_pkg) JobEnded: {'identifier': 'my_py_pkg', 'rc': 0}
+[26.420781] (-) EventReactorShutdown: {}

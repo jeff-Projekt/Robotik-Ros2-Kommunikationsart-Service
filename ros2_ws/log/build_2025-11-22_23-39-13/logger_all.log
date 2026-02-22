@@ -1,0 +1,601 @@
+[0.783s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.784s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=1, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71c3bfba43e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71c3bfb7bfe0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71c3bfb7bfe0>>, mixin_verb=('build',))
+[1.569s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.591s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.592s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.592s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/bachelor/ros2_ws'
+[1.592s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.593s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ignore_ament_install'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_pkg']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_pkg'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['colcon_meta']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'colcon_meta'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extensions ['ros']
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_py_pkg) by extension 'ros'
+[1.927s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_py_pkg' with type 'ros.ament_python' and name 'my_py_pkg'
+[1.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extension 'ignore'
+[1.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extension 'ignore_ament_install'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extensions ['colcon_pkg']
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extension 'colcon_pkg'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extensions ['colcon_meta']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extension 'colcon_meta'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extensions ['ros']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_tutorial_interfaces) by extension 'ros'
+[1.933s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_tutorial_interfaces' with type 'ros.ament_cmake' and name 'my_tutorial_interfaces'
+[1.934s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'ignore'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'ignore_ament_install'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['colcon_pkg']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'colcon_pkg'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['colcon_meta']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'colcon_meta'
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['ros']
+[1.935s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'ros'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['cmake', 'python']
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'cmake'
+[1.936s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'python'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extensions ['python_setup_py']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator) by extension 'python_setup_py'
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.937s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extension 'ignore'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extension 'ignore_ament_install'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extensions ['colcon_pkg']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extension 'colcon_pkg'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extensions ['colcon_meta']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extension 'colcon_meta'
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extensions ['ros']
+[1.938s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_bringup) by extension 'ros'
+[1.955s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_simulator/turtlebot4_gz_bringup' with type 'ros.ament_cmake' and name 'turtlebot4_gz_bringup'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extensions ['ignore', 'ignore_ament_install']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extension 'ignore'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extension 'ignore_ament_install'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extensions ['colcon_pkg']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extension 'colcon_pkg'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extensions ['colcon_meta']
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extension 'colcon_meta'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extensions ['ros']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_gui_plugins) by extension 'ros'
+[1.960s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_simulator/turtlebot4_gz_gui_plugins' with type 'ros.ament_cmake' and name 'turtlebot4_gz_gui_plugins'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extensions ['ignore', 'ignore_ament_install']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extension 'ignore'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extension 'ignore_ament_install'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extensions ['colcon_pkg']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extension 'colcon_pkg'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extensions ['colcon_meta']
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extension 'colcon_meta'
+[1.968s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extensions ['ros']
+[1.969s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_gz_toolbox) by extension 'ros'
+[1.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_simulator/turtlebot4_gz_toolbox' with type 'ros.ament_cmake' and name 'turtlebot4_gz_toolbox'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ignore_ament_install'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_pkg']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_pkg'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['colcon_meta']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extension 'colcon_meta'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot4_simulator/turtlebot4_simulator) by extension 'ros'
+[1.978s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot4_simulator/turtlebot4_simulator' with type 'ros.ament_cmake' and name 'turtlebot4_simulator'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extension 'ignore'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extension 'ignore_ament_install'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extensions ['colcon_pkg']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extension 'colcon_pkg'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extensions ['colcon_meta']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extension 'colcon_meta'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extensions ['ros']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(src/v1_topic_pkg) by extension 'ros'
+[1.981s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v1_topic_pkg' with type 'ros.ament_python' and name 'v1_topic_pkg'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extensions ['ignore', 'ignore_ament_install']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extension 'ignore'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extension 'ignore_ament_install'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extensions ['colcon_pkg']
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extension 'colcon_pkg'
+[1.981s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extensions ['colcon_meta']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extension 'colcon_meta'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extensions ['ros']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/v2_service_interface) by extension 'ros'
+[1.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/v2_service_interface' with type 'ros.ament_cmake' and name 'v2_service_interface'
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.996s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.997s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.104s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.130s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/bachelor/ros2_ws/install
+[2.136s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 434 installed packages in /opt/ros/jazzy
+[2.156s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[2.436s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[2.437s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'my_tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.438s] DEBUG:colcon.colcon_core.verb:Building package 'my_tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/my_tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/my_tutorial_interfaces', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/my_tutorial_interfaces', 'symlink_install': False, 'test_result_base': None}
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_args' from command line to 'None'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_target' from command line to 'None'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[2.438s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_gui_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.439s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_gz_gui_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_gui_plugins', 'symlink_install': False, 'test_result_base': None}
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_args' from command line to 'None'
+[2.439s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_target' from command line to 'None'
+[2.443s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_clean_cache' from command line to 'False'
+[2.444s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_clean_first' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'cmake_force_configure' from command line to 'False'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'ament_cmake_args' from command line to 'None'
+[2.445s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'catkin_cmake_args' from command line to 'None'
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_toolbox' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.446s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_gz_toolbox' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox', 'symlink_install': False, 'test_result_base': None}
+[2.446s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_args' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_target' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.447s] Level 5:colcon.colcon_core.verb:set package 'v1_topic_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.447s] DEBUG:colcon.colcon_core.verb:Building package 'v1_topic_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/v1_topic_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/v1_topic_pkg', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/v1_topic_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_args' from command line to 'None'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_target' from command line to 'None'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_clean_first' from command line to 'False'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'cmake_force_configure' from command line to 'False'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'ament_cmake_args' from command line to 'None'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[2.448s] Level 5:colcon.colcon_core.verb:set package 'v2_service_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.448s] DEBUG:colcon.colcon_core.verb:Building package 'v2_service_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/v2_service_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/v2_service_interface', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/v2_service_interface', 'symlink_install': False, 'test_result_base': None}
+[2.449s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_args' from command line to 'None'
+[2.449s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target' from command line to 'None'
+[2.450s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.450s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.450s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.450s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.453s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.454s] Level 5:colcon.colcon_core.verb:set package 'my_py_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.454s] DEBUG:colcon.colcon_core.verb:Building package 'my_py_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/my_py_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/my_py_pkg', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/my_py_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_args' from command line to 'None'
+[2.458s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_target' from command line to 'None'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.459s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_gz_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.459s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_gz_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/turtlebot4_gz_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.462s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_args' from command line to 'None'
+[2.462s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_target' from command line to 'None'
+[2.463s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.463s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[2.463s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[2.464s] Level 5:colcon.colcon_core.verb:set package 'turtlebot4_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.464s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot4_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/bachelor/ros2_ws/build/turtlebot4_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/bachelor/ros2_ws/install/turtlebot4_simulator', 'merge_install': False, 'path': '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_simulator', 'symlink_install': False, 'test_result_base': None}
+[2.464s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.477s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.478s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_gui_plugins' with build type 'ament_cmake'
+[2.479s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_gui_plugins'
+[2.547s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.548s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.548s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.768s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins -- -j1 -l1
+[5.547s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins -- -j1 -l1
+[5.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins
+[6.155s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_gui_plugins)
+[6.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_gui_plugins
+[6.264s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins' for CMake module files
+[6.268s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins' for CMake config files
+[6.272s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_gui_plugins', 'cmake_prefix_path')
+[6.273s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.ps1'
+[6.280s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.dsv'
+[6.287s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.sh'
+[6.293s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/bin'
+[6.294s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/lib/pkgconfig/turtlebot4_gz_gui_plugins.pc'
+[6.294s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/lib/python3.12/site-packages'
+[6.295s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/bin'
+[6.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.ps1'
+[6.318s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.dsv'
+[6.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.sh'
+[6.340s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.bash'
+[6.346s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.zsh'
+[6.368s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/colcon-core/packages/turtlebot4_gz_gui_plugins)
+[6.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_gui_plugins)
+[6.372s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins' for CMake module files
+[6.375s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins' for CMake config files
+[6.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_gui_plugins', 'cmake_prefix_path')
+[6.376s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.ps1'
+[6.380s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.dsv'
+[6.392s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/hook/cmake_prefix_path.sh'
+[6.403s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/bin'
+[6.403s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/lib/pkgconfig/turtlebot4_gz_gui_plugins.pc'
+[6.404s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/lib/python3.12/site-packages'
+[6.420s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/bin'
+[6.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.ps1'
+[6.443s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.dsv'
+[6.451s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.sh'
+[6.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.bash'
+[6.463s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/turtlebot4_gz_gui_plugins/package.zsh'
+[6.469s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins/share/colcon-core/packages/turtlebot4_gz_gui_plugins)
+[6.490s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox' with build type 'ament_cmake'
+[6.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_toolbox'
+[6.490s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.490s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[9.016s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox -- -j1 -l1
+[9.042s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox
+[9.212s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_toolbox)
+[9.213s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox' for CMake module files
+[9.230s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_toolbox
+[9.231s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox' for CMake config files
+[9.234s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_toolbox', 'cmake_prefix_path')
+[9.235s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.ps1'
+[9.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.dsv'
+[9.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.sh'
+[9.274s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib'
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/bin'
+[9.275s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/pkgconfig/turtlebot4_gz_toolbox.pc'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/python3.12/site-packages'
+[9.276s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/bin'
+[9.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.ps1'
+[9.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.dsv'
+[9.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.sh'
+[9.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.bash'
+[9.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.zsh'
+[9.322s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/colcon-core/packages/turtlebot4_gz_toolbox)
+[9.326s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_toolbox)
+[9.327s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox' for CMake module files
+[9.330s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox' for CMake config files
+[9.331s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_toolbox', 'cmake_prefix_path')
+[9.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.ps1'
+[9.339s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.dsv'
+[9.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/hook/cmake_prefix_path.sh'
+[9.347s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib'
+[9.348s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/bin'
+[9.348s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/pkgconfig/turtlebot4_gz_toolbox.pc'
+[9.348s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/lib/python3.12/site-packages'
+[9.350s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/bin'
+[9.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.ps1'
+[9.356s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.dsv'
+[9.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.sh'
+[9.365s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.bash'
+[9.370s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/turtlebot4_gz_toolbox/package.zsh'
+[9.374s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox/share/colcon-core/packages/turtlebot4_gz_toolbox)
+[9.396s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/my_tutorial_interfaces' with build type 'ament_cmake'
+[9.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/my_tutorial_interfaces'
+[9.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.397s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/my_tutorial_interfaces -- -j1 -l1
+[19.880s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/my_tutorial_interfaces -- -j1 -l1
+[19.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/my_tutorial_interfaces
+[22.551s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tutorial_interfaces)
+[22.566s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/my_tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/my_tutorial_interfaces
+[22.567s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces' for CMake module files
+[22.570s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces' for CMake config files
+[22.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'cmake_prefix_path')
+[22.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[22.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[22.689s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.sh'
+[22.712s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib'
+[22.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'ld_library_path_lib')
+[22.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[22.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[22.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.sh'
+[22.797s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/bin'
+[22.820s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/pkgconfig/my_tutorial_interfaces.pc'
+[22.820s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages'
+[22.820s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'pythonpath')
+[22.821s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.ps1'
+[22.851s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.dsv'
+[22.875s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.sh'
+[22.895s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/bin'
+[22.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.ps1'
+[22.929s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.dsv'
+[22.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.sh'
+[23.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.bash'
+[23.036s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.zsh'
+[23.057s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/colcon-core/packages/my_tutorial_interfaces)
+[23.074s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_tutorial_interfaces)
+[23.077s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces' for CMake module files
+[23.078s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces' for CMake config files
+[23.079s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'cmake_prefix_path')
+[23.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[23.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[23.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/cmake_prefix_path.sh'
+[23.222s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib'
+[23.224s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'ld_library_path_lib')
+[23.225s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[23.286s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[23.307s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/ld_library_path_lib.sh'
+[23.335s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/bin'
+[23.335s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/pkgconfig/my_tutorial_interfaces.pc'
+[23.335s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages'
+[23.335s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_tutorial_interfaces', 'pythonpath')
+[23.336s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.ps1'
+[23.352s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.dsv'
+[23.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/hook/pythonpath.sh'
+[23.388s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/bin'
+[23.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.ps1'
+[23.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.dsv'
+[23.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.sh'
+[23.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.bash'
+[23.554s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/my_tutorial_interfaces/package.zsh'
+[23.587s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/my_tutorial_interfaces/share/colcon-core/packages/my_tutorial_interfaces)
+[23.612s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup' with build type 'ament_cmake'
+[23.613s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_gz_bringup'
+[23.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[23.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_bringup': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_bringup -- -j1 -l1
+[26.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_gz_bringup -- -j1 -l1
+[26.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_bringup': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_bringup
+[27.454s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_bringup)
+[27.454s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup' for CMake module files
+[27.457s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup' for CMake config files
+[27.459s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_bringup', 'cmake_prefix_path')
+[27.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_gz_bringup' returned '0': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_gz_bringup
+[27.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.ps1'
+[27.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.dsv'
+[27.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.sh'
+[27.724s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/bin'
+[27.724s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/lib/pkgconfig/turtlebot4_gz_bringup.pc'
+[27.725s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/lib/python3.12/site-packages'
+[27.726s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/bin'
+[27.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.ps1'
+[27.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.dsv'
+[27.829s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.sh'
+[27.903s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.bash'
+[27.909s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.zsh'
+[27.945s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/colcon-core/packages/turtlebot4_gz_bringup)
+[27.974s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_gz_bringup)
+[27.990s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup' for CMake module files
+[28.017s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup' for CMake config files
+[28.038s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_gz_bringup', 'cmake_prefix_path')
+[28.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.ps1'
+[28.072s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.dsv'
+[28.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/hook/cmake_prefix_path.sh'
+[28.173s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/bin'
+[28.190s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/lib/pkgconfig/turtlebot4_gz_bringup.pc'
+[28.191s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/lib/python3.12/site-packages'
+[28.192s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/bin'
+[28.192s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.ps1'
+[28.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.dsv'
+[28.331s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.sh'
+[28.385s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.bash'
+[28.410s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/turtlebot4_gz_bringup/package.zsh'
+[28.454s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup/share/colcon-core/packages/turtlebot4_gz_bringup)
+[28.492s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bachelor/ros2_ws/src/v1_topic_pkg' with build type 'ament_python'
+[28.492s] Level 1:colcon.colcon_core.shell:create_environment_hook('v1_topic_pkg', 'ament_prefix_path')
+[28.493s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/ament_prefix_path.ps1'
+[28.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/ament_prefix_path.dsv'
+[28.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/ament_prefix_path.sh'
+[28.690s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[28.697s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[36.511s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bachelor/ros2_ws/src/v1_topic_pkg'
+[36.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[36.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[60.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/src/v1_topic_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data
+[69.148s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg' for CMake module files
+[69.153s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/src/v1_topic_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/bachelor/ros2_ws/build/v1_topic_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/v1_topic_pkg build --build-base /home/bachelor/ros2_ws/build/v1_topic_pkg/build install --record /home/bachelor/ros2_ws/build/v1_topic_pkg/install.log --single-version-externally-managed install_data
+[69.154s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg' for CMake config files
+[69.155s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib'
+[69.158s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg/bin'
+[69.158s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/pkgconfig/v1_topic_pkg.pc'
+[69.159s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages'
+[69.159s] Level 1:colcon.colcon_core.shell:create_environment_hook('v1_topic_pkg', 'pythonpath')
+[69.159s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/pythonpath.ps1'
+[69.169s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/pythonpath.dsv'
+[69.174s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/hook/pythonpath.sh'
+[69.183s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v1_topic_pkg/bin'
+[69.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v1_topic_pkg)
+[69.184s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/package.ps1'
+[69.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/package.dsv'
+[69.237s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/package.sh'
+[69.353s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/package.bash'
+[69.381s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v1_topic_pkg/share/v1_topic_pkg/package.zsh'
+[69.394s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/v1_topic_pkg/share/colcon-core/packages/v1_topic_pkg)
+[69.406s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/v2_service_interface' with build type 'ament_cmake'
+[69.406s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/v2_service_interface'
+[69.406s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[69.406s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[69.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/v2_service_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/v2_service_interface -- -j1 -l1
+[83.216s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/v2_service_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/v2_service_interface -- -j1 -l1
+[83.253s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/v2_service_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/v2_service_interface
+[86.138s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v2_service_interface)
+[86.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/v2_service_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/v2_service_interface
+[86.139s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface' for CMake module files
+[86.152s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface' for CMake config files
+[86.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'cmake_prefix_path')
+[86.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.ps1'
+[86.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.dsv'
+[86.185s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.sh'
+[86.222s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib'
+[86.222s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'ld_library_path_lib')
+[86.223s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.ps1'
+[86.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.dsv'
+[86.257s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.sh'
+[86.262s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/bin'
+[86.262s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib/pkgconfig/v2_service_interface.pc'
+[86.267s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages'
+[86.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'pythonpath')
+[86.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.ps1'
+[86.274s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.dsv'
+[86.286s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.sh'
+[86.300s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/bin'
+[86.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.ps1'
+[86.319s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.dsv'
+[86.354s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.sh'
+[86.367s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.bash'
+[86.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.zsh'
+[86.386s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/v2_service_interface/share/colcon-core/packages/v2_service_interface)
+[86.390s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(v2_service_interface)
+[86.390s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface' for CMake module files
+[86.392s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface' for CMake config files
+[86.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'cmake_prefix_path')
+[86.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.ps1'
+[86.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.dsv'
+[86.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/cmake_prefix_path.sh'
+[86.439s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib'
+[86.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'ld_library_path_lib')
+[86.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.ps1'
+[86.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.dsv'
+[86.474s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/ld_library_path_lib.sh'
+[86.480s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/bin'
+[86.480s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib/pkgconfig/v2_service_interface.pc'
+[86.481s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages'
+[86.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('v2_service_interface', 'pythonpath')
+[86.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.ps1'
+[86.489s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.dsv'
+[86.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/hook/pythonpath.sh'
+[86.538s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/v2_service_interface/bin'
+[86.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.ps1'
+[86.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.dsv'
+[86.602s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.sh'
+[86.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.bash'
+[86.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/v2_service_interface/share/v2_service_interface/package.zsh'
+[86.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/v2_service_interface/share/colcon-core/packages/v2_service_interface)
+[86.713s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/bachelor/ros2_ws/src/my_py_pkg' with build type 'ament_python'
+[86.713s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'ament_prefix_path')
+[86.714s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.ps1'
+[86.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.dsv'
+[86.809s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/ament_prefix_path.sh'
+[86.844s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[86.844s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[107.080s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/bachelor/ros2_ws/src/my_py_pkg'
+[107.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[107.081s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[126.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/src/my_py_pkg': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/home/bachelor/ros2_ws/install/v2_service_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/bachelor/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/bachelor/ros2_ws/build/my_py_pkg/build install --record /home/bachelor/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[134.460s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg' for CMake module files
+[134.461s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/src/my_py_pkg' returned '0': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib:/home/bachelor/ros2_ws/install/v2_service_interface/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/bachelor/ros2_ws/build/my_py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_tutorial_interfaces/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/v2_service_interface/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/v1_topic_pkg/lib/python3.12/site-packages:/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_py_pkg build --build-base /home/bachelor/ros2_ws/build/my_py_pkg/build install --record /home/bachelor/ros2_ws/build/my_py_pkg/install.log --single-version-externally-managed install_data
+[134.462s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg' for CMake config files
+[134.476s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg/lib'
+[134.477s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg/bin'
+[134.477s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg/lib/pkgconfig/my_py_pkg.pc'
+[134.487s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg/lib/python3.12/site-packages'
+[134.487s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_py_pkg', 'pythonpath')
+[134.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.ps1'
+[134.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.dsv'
+[134.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/hook/pythonpath.sh'
+[134.534s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/my_py_pkg/bin'
+[134.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_py_pkg)
+[134.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.ps1'
+[134.544s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.dsv'
+[134.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.sh'
+[134.566s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.bash'
+[134.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/my_py_pkg/share/my_py_pkg/package.zsh'
+[134.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/my_py_pkg/share/colcon-core/packages/my_py_pkg)
+[134.616s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_simulator' with build type 'ament_cmake'
+[134.617s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/bachelor/ros2_ws/src/turtlebot4_simulator/turtlebot4_simulator'
+[134.617s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[134.617s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[134.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_simulator': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_simulator -- -j1 -l1
+[135.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_simulator' returned '0': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/bachelor/ros2_ws/build/turtlebot4_simulator -- -j1 -l1
+[135.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/bachelor/ros2_ws/build/turtlebot4_simulator': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_simulator
+[135.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_simulator)
+[135.869s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator' for CMake module files
+[135.871s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator' for CMake config files
+[135.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_simulator', 'cmake_prefix_path')
+[135.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.ps1'
+[135.881s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/bachelor/ros2_ws/build/turtlebot4_simulator' returned '0': CMAKE_PREFIX_PATH=/home/bachelor/ros2_ws/install/turtlebot4_gz_bringup:/home/bachelor/ros2_ws/install/turtlebot4_gz_toolbox:/home/bachelor/ros2_ws/install/turtlebot4_gz_gui_plugins:/home/bachelor/ros2_ws/install/v2_service_interface:/home/bachelor/ros2_ws/install/turtlebot4_simulator:/home/bachelor/ros2_ws/install/my_tutorial_interfaces:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/bachelor/ros2_ws/install/v1_topic_pkg:/home/bachelor/ros2_ws/install/my_py_pkg:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/bachelor/ros2_ws/build/turtlebot4_simulator
+[135.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.dsv'
+[135.912s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.sh'
+[135.926s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/bin'
+[135.926s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/lib/pkgconfig/turtlebot4_simulator.pc'
+[135.926s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/lib/python3.12/site-packages'
+[135.927s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/bin'
+[135.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.ps1'
+[135.933s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.dsv'
+[135.949s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.sh'
+[135.998s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.bash'
+[136.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.zsh'
+[136.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/colcon-core/packages/turtlebot4_simulator)
+[136.025s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot4_simulator)
+[136.028s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator' for CMake module files
+[136.037s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator' for CMake config files
+[136.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot4_simulator', 'cmake_prefix_path')
+[136.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.ps1'
+[136.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.dsv'
+[136.061s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/hook/cmake_prefix_path.sh'
+[136.069s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/bin'
+[136.086s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/lib/pkgconfig/turtlebot4_simulator.pc'
+[136.087s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/lib/python3.12/site-packages'
+[136.088s] Level 1:colcon.colcon_core.environment:checking '/home/bachelor/ros2_ws/install/turtlebot4_simulator/bin'
+[136.088s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.ps1'
+[136.100s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.dsv'
+[136.132s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.sh'
+[136.143s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.bash'
+[136.154s] INFO:colcon.colcon_core.shell:Creating package script '/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/turtlebot4_simulator/package.zsh'
+[136.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/bachelor/ros2_ws/install/turtlebot4_simulator/share/colcon-core/packages/turtlebot4_simulator)
+[136.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[136.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[136.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[136.170s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[136.483s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[136.483s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[136.483s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[137.122s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[137.122s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bachelor/ros2_ws/install/local_setup.ps1'
+[137.157s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bachelor/ros2_ws/install/_local_setup_util_ps1.py'
+[137.187s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bachelor/ros2_ws/install/setup.ps1'
+[137.239s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bachelor/ros2_ws/install/local_setup.sh'
+[137.268s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/bachelor/ros2_ws/install/_local_setup_util_sh.py'
+[137.293s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bachelor/ros2_ws/install/setup.sh'
+[137.315s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bachelor/ros2_ws/install/local_setup.bash'
+[137.337s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bachelor/ros2_ws/install/setup.bash'
+[137.362s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/bachelor/ros2_ws/install/local_setup.zsh'
+[137.371s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/bachelor/ros2_ws/install/setup.zsh'
